@@ -359,12 +359,7 @@
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top py-3">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center gap-2" href="#">
-                <!-- High-contrast minimal geometric vector logo -->
-                <svg width="34" height="34" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="100" height="100" fill="black"/>
-                    <path d="M15 80L50 15L85 80H15Z" stroke="white" stroke-width="8" stroke-linejoin="round"/>
-                    <line x1="30" y1="58" x2="70" y2="58" stroke="white" stroke-width="5"/>
-                </svg>
+                <img src="logo.png" alt="Signage SG logo" style="height: 34px; width: auto;" class="flex-shrink-0">
                 <div>
                     <span class="d-block h4 mb-0 fw-bold tracking-widest text-black display-font" style="letter-spacing: 1px;">SIGNAGE SG</span>
                     <span class="d-block text-uppercase text-muted" style="font-size: 0.55rem; letter-spacing: 3px; font-weight: 700;">ARCHITECTURAL SIGN CRAFTS</span>
