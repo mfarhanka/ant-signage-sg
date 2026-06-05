@@ -1,4 +1,6 @@
 <?php
+$logoPath = 'logo.png';
+
 $services = [
 	[
 		'title' => 'Custom Signboards',
@@ -99,8 +101,49 @@ $stats = [
 
 		.navbar-brand {
 			font-family: 'Oswald', sans-serif;
-			font-size: 1.75rem;
+			display: inline-flex;
+			align-items: center;
+			gap: 0.9rem;
+		}
+
+		.brand-logo-wrap {
+			width: 68px;
+			height: 68px;
+			flex: 0 0 68px;
+			background: var(--sg-white);
+			padding: 0.5rem;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+		}
+
+		.brand-logo {
+			max-width: 100%;
+			max-height: 100%;
+			display: block;
+		}
+
+		.brand-copy {
+			display: flex;
+			flex-direction: column;
+			line-height: 1;
+		}
+
+		.brand-title {
+			font-size: 1.55rem;
 			letter-spacing: 0.08em;
+			color: var(--sg-black);
+		}
+
+		.brand-subtitle {
+			font-family: 'Manrope', sans-serif;
+			font-size: 0.68rem;
+			font-weight: 800;
+			letter-spacing: 0.16em;
+			text-transform: uppercase;
+			color: var(--sg-black);
+			margin-top: 0.35rem;
 		}
 
 		.brand-mark {
@@ -368,12 +411,43 @@ $stats = [
 
 		.footer-brand {
 			color: var(--sg-white);
-			font-size: 2rem;
+			font-size: 1.85rem;
+		}
+
+		.footer-brand-row {
+			display: inline-flex;
+			align-items: center;
+			gap: 1rem;
+		}
+
+		.footer-logo-wrap {
+			width: 80px;
+			height: 80px;
+			background: var(--sg-white);
+			padding: 0.5rem;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
 		}
 
 		@media (max-width: 991.98px) {
 			.hero {
 				padding-top: 7rem;
+			}
+
+			.navbar-brand {
+				gap: 0.65rem;
+			}
+
+			.brand-logo-wrap {
+				width: 56px;
+				height: 56px;
+				flex-basis: 56px;
+			}
+
+			.brand-title {
+				font-size: 1.2rem;
 			}
 		}
 	</style>
@@ -381,7 +455,15 @@ $stats = [
 <body>
 	<nav class="navbar navbar-expand-lg fixed-top">
 		<div class="container py-2">
-			<a class="navbar-brand fw-bold text-dark" href="#top"><span class="brand-mark">Signage</span>SG</a>
+			<a class="navbar-brand fw-bold text-dark" href="#top" aria-label="SignageSG home">
+				<span class="brand-logo-wrap">
+					<img class="brand-logo" src="<?php echo htmlspecialchars($logoPath, ENT_QUOTES, 'UTF-8'); ?>" alt="SignageSG logo">
+				</span>
+				<span class="brand-copy">
+					<span class="brand-title"><span class="brand-mark">Signage</span>SG</span>
+					<span class="brand-subtitle">Signboard Manufacturer</span>
+				</span>
+			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -618,7 +700,15 @@ $stats = [
 		<div class="container">
 			<div class="row g-4 align-items-end">
 				<div class="col-lg-8">
-					<div class="footer-brand brand-font"><span class="brand-mark">Signage</span>SG</div>
+					<div class="footer-brand-row">
+						<span class="footer-logo-wrap">
+							<img class="brand-logo" src="<?php echo htmlspecialchars($logoPath, ENT_QUOTES, 'UTF-8'); ?>" alt="SignageSG logo mark">
+						</span>
+						<div>
+							<div class="footer-brand brand-font"><span class="brand-mark">Signage</span>SG</div>
+							<p class="small-label mb-0 mt-2">Primary brand uses uploaded logo</p>
+						</div>
+					</div>
 					<p class="mt-3 mb-0">Responsive Bootstrap landing page for a signage and signboard manufacturer. Content direction and factual service/contact references were adapted from signages.com.sg and rewritten for this page.</p>
 				</div>
 				<div class="col-lg-4 text-lg-end">
