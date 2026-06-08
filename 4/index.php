@@ -3,11 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maneki Signage | Custom Signage Solutions</title>
+    <title>SignageSG | Custom Signage Solutions</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; }
+
+        .brand-logo-shell {
+            width: 64px;
+            height: 64px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .brand-logo-image {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: block;
+        }
+
+        .footer-logo-shell {
+            width: 72px;
+            height: 72px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
     </style>
 </head>
 <body class="bg-white text-neutral-900">
@@ -16,7 +41,12 @@
         <div class="container mx-auto px-4 py-3 flex items-center justify-between">
             <div class="flex items-center space-x-8">
                 <!-- Logo -->
-                <div class="text-2xl font-bold tracking-tighter">MANEKI<span class="text-red-600">SIGNAGE</span></div>
+                <div class="flex items-center space-x-3">
+                    <div class="brand-logo-shell">
+                        <img src="logo.png" alt="SignageSG logo" class="brand-logo-image">
+                    </div>
+                    <div class="text-2xl font-bold tracking-tighter">Signage<span class="text-red-600">SG</span></div>
+                </div>
                 
                 <!-- Nav -->
                 <nav class="hidden md:flex space-x-6 text-sm font-medium text-neutral-600">
@@ -110,7 +140,12 @@
         <div class="container mx-auto px-4">
             <div class="grid md:grid-cols-4 gap-12">
                 <div>
-                    <div class="text-white text-xl font-bold mb-6">MANEKI<span class="text-red-600">SIGNAGE</span></div>
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="footer-logo-shell">
+                            <img src="logo.png" alt="SignageSG logo" class="brand-logo-image">
+                        </div>
+                        <div class="text-white text-xl font-bold">Signage<span class="text-red-600">SG</span></div>
+                    </div>
                     <p class="text-sm">Quality craftsmanship for your business.</p>
                 </div>
                 <div>
@@ -138,7 +173,7 @@
                 </div>
             </div>
             <div class="border-t border-neutral-800 mt-12 pt-8 text-center text-xs">
-                &copy; 2026 Maneki Signage. All Rights Reserved.
+                &copy; 2026 SignageSG. All Rights Reserved.
             </div>
         </div>
     </footer>

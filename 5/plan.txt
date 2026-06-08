@@ -1,0 +1,134 @@
+Build a modern responsive website for my company “SignageSG”, inspired by https://www.treazpass.my/ but not copied.
+
+Company: SignageSG
+Industry: Signboard, signage, printing, branding, and installation services in Singapore.
+Style: Premium, clean, modern, corporate, creative agency feel.
+Goal: Convert visitors into WhatsApp enquiries.
+
+Website sections:
+
+1. Top announcement bar
+
+* Text: “Professional signage solutions for Singapore businesses”
+* CTA button: WhatsApp Us
+
+2. Header / Navigation
+
+* Logo: SignageSG
+* Menu: Home, About, Services, Projects, Reviews, Contact
+* Sticky header
+* WhatsApp button on right
+
+3. Hero Section
+   Headline:
+   “Signage That Makes Your Brand Stand Out”
+   Subheadline:
+   “SignageSG designs, fabricates, and installs high-quality signboards, lightboxes, stickers, and branding displays for businesses across Singapore.”
+   CTA buttons:
+
+* WhatsApp Us
+* View Our Projects
+  Use large signage/project background image or video placeholder.
+
+4. Portfolio Categories
+   Show image grid with categories:
+
+* Shopfront Signboard
+* 3D Box Up Lettering
+* LED Lightbox
+* Acrylic Signage
+* Window Sticker
+* Vehicle Sticker
+* Hoarding Board
+* Mall & Retail Display
+* Office Directional Signage
+
+5. About Section
+   Title:
+   “Visibility Solutions for Singapore Businesses”
+   Text:
+   “At SignageSG, we help businesses improve brand visibility through professional signage design, fabrication, and installation. From small retail shops to corporate offices and commercial projects, we deliver signage that looks professional, durable, and brand-focused.”
+
+Add stats:
+
+* 500+ Projects Completed
+* Fast Quotation
+* Design + Fabrication + Installation
+* Singapore-wide Service
+
+6. Services Section
+   Create service cards:
+
+* Signboard Design & Installation
+* LED Lightbox Signage
+* 3D Lettering Signage
+* Sticker & Vinyl Printing
+* Bunting / Banner / Poster
+* Vehicle Wrapping
+* Office & Directional Signage
+* Custom Branding Display
+
+Each card has short description and “Enquire Now” button.
+
+7. Latest Projects Section
+   Create 3 featured project cards:
+   Project 1: Retail Shop Signboard
+   Project 2: Corporate Office Signage
+   Project 3: LED Lightbox Branding
+   Each card has image placeholder, title, short text, and “Explore Project”.
+
+8. Reviews Section
+   Create customer testimonial slider/cards:
+
+* “Very professional and responsive. The signage quality was excellent.”
+* “Fast service, good design, and smooth installation.”
+* “Our shopfront looks more premium after the new signboard.”
+
+9. Contact Section
+   Title: “Have a signage project in mind?”
+   Fields:
+
+* Name
+* Phone
+* Email
+* Service Needed
+* Message
+  Buttons:
+* Submit Enquiry
+* WhatsApp Us
+
+Contact details:
+Company: SignageSG
+Location: Singapore
+Phone: +65 XXXXXXXX
+Email: [hello@signagesg.com](mailto:hello@signagesg.com)
+Social: Facebook, Instagram, TikTok
+
+10. Footer
+
+* SignageSG
+* Short description
+* Quick links
+* Services
+* Contact
+* Copyright
+
+Technical requirements:
+
+* Use HTML, CSS, and JavaScript only.
+* Use Bootstrap 5.
+* Fully responsive for mobile, tablet, and desktop.
+* Modern animations on scroll.
+* Clean file structure:
+  /index.html
+  /assets/css/style.css
+  /assets/js/main.js
+  /assets/images/
+* Use placeholder images first.
+* Add WhatsApp floating button.
+* Add SEO meta title and description:
+  Title: “SignageSG | Signboard & Signage Maker Singapore”
+  Description: “SignageSG provides professional signboard design, signage fabrication, LED lightbox, stickers, and installation services in Singapore.”
+* Make the design premium, not too cluttered.
+* Use black, white, grey, and gold/yellow accent color.
+* Do not copy exact text, layout, images, or branding from Treazpass.

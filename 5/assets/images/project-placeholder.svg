@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="projectTitle projectDesc">
+    <title id="projectTitle">SignageSG project placeholder</title>
+    <desc id="projectDesc">Abstract signage project placeholder artwork with dark background and gold details.</desc>
+    <defs>
+        <linearGradient id="projectBg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#121212"/>
+            <stop offset="100%" stop-color="#262626"/>
+        </linearGradient>
+        <linearGradient id="projectGold" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#d4a93d"/>
+            <stop offset="100%" stop-color="#f1cf73"/>
+        </linearGradient>
+    </defs>
+    <rect width="1200" height="900" fill="url(#projectBg)"/>
+    <rect x="120" y="130" width="430" height="560" rx="28" fill="#1a1a1a" stroke="#444"/>
+    <rect x="190" y="220" width="290" height="66" rx="16" fill="url(#projectGold)"/>
+    <rect x="190" y="330" width="220" height="18" rx="9" fill="#ffffff" fill-opacity="0.72"/>
+    <rect x="190" y="380" width="290" height="14" rx="7" fill="#ffffff" fill-opacity="0.25"/>
+    <rect x="190" y="415" width="250" height="14" rx="7" fill="#ffffff" fill-opacity="0.25"/>
+    <rect x="660" y="210" width="370" height="370" rx="32" fill="#161616" stroke="#585858"/>
+    <path d="M760 498h168" stroke="url(#projectGold)" stroke-width="22" stroke-linecap="round"/>
+    <path d="M842 414v168" stroke="url(#projectGold)" stroke-width="22" stroke-linecap="round"/>
+    <circle cx="950" cy="180" r="78" fill="#d4a93d" fill-opacity="0.12"/>
+    <circle cx="236" cy="728" r="56" fill="#ffffff" fill-opacity="0.08"/>
+    <text x="120" y="790" fill="#f6f1e7" font-family="Arial, sans-serif" font-size="52" font-weight="700">PROJECT PLACEHOLDER</text>
+    <text x="120" y="840" fill="#d4a93d" font-family="Arial, sans-serif" font-size="24" letter-spacing="6">SIGNAGE / BRANDING / INSTALLATION</text>
+</svg>
