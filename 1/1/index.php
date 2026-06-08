@@ -149,21 +149,21 @@
             <div class="developer-showcase-shell">
                 <div class="developer-showcase-content">
                     <div class="developer-showcase-heading">
-                        <h2 class="display-font text-uppercase">3D Signboard</h2>
+                        <h2 class="display-font text-uppercase">3D Signages</h2>
                     </div>
 
                     <div class="developer-showcase-grid">
                         <article class="developer-showcase-card">
-                            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80" alt="3D illuminated signboard installation" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=3D+Signboard+1'">
+                            <img src="assets/images/3d-signages/3d-signages-ubi-ave-stainless-steel.jpeg" alt="3D stainless steel signboard installed at Ubi Avenue Singapore">
                         </article>
                         <article class="developer-showcase-card">
-                            <img src="https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=900&q=80" alt="Halo-lit acrylic signboard" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=3D+Signboard+2'">
+                            <img src="assets/images/3d-signages/3d-signages-jurong-gateway-shopfront-lettering.jpeg" alt="3D shopfront lettering installation at Jurong Gateway Singapore">
                         </article>
                         <article class="developer-showcase-card">
-                            <img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=900&q=80" alt="Outdoor 3D shopfront signboard" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=3D+Signboard+3'">
+                            <img src="assets/images/3d-signages/3d-signages-woodlands-bracket-signboard.jpeg" alt="Shopfront bracket signboard installation in Woodlands Singapore">
                         </article>
                         <article class="developer-showcase-card">
-                            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=80" alt="Interior branded 3D signboard" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=3D+Signboard+4'">
+                            <img src="assets/images/3d-signages/3d-signages-bugis-frontlit-stainless-steel.jpeg" alt="Stainless steel frontlit signage installation in Bugis Singapore">
                         </article>
                     </div>
                 </div>
