@@ -691,7 +691,6 @@
             <div class="collapse navbar-collapse" id="navbarContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-1 gap-lg-4">
                     <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Signage Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#compliance">Safety & Compliance</a></li>
                     <li class="nav-item"><a class="nav-link" href="#estimator">Cost Calculator</a></li>
                 </ul>
@@ -728,7 +727,6 @@
                     
                     <div class="d-flex flex-wrap gap-3">
                         <a href="#estimator" class="btn-wb-solid">Calculate Signage Cost</a>
-                        <a href="#services" class="btn-wb-outline">Our Signage Services</a>
                     </div>
                 </div>
 
@@ -794,126 +792,6 @@
                         <span class="text-black">KEPPEL BAY</span>
                         <span class="text-black">MARINA BAY SANDS</span>
                         <span class="text-black">CHIP ENG SENG</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="services" class="py-5 bg-white border-bottom border-technical">
-        <div class="container py-5">
-            <div class="row mb-5 align-items-end">
-                <div class="col-lg-6">
-                    <span class="text-uppercase tracking-wider text-muted fw-bold" style="font-size: 0.8rem; letter-spacing: 2px;">END-TO-END FABRICATION & ASSEMBLY</span>
-                    <h2 class="display-4 text-black mt-2 mb-0">OUR SIGNAGE SERVICES</h2>
-                </div>
-                <div class="col-lg-6 mt-3 mt-lg-0">
-                    <p class="text-dark-gray mb-0" style="font-weight: 400; line-height: 1.8;">
-                        Every signage solution we build utilizes industrial CNC routers, fiber laser cutters, and high-efficiency lighting profiles. Our in-house engineers ensure full mechanical and structural compatibility for any architectural specification.
-                    </p>
-                </div>
-            </div>
-
-            <div class="row g-4">
-                <!-- Service 1: 3D LED Signage -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="service-card p-4 d-flex flex-column justify-content-between">
-                        <div>
-                            <div class="service-icon mb-4"><i class="fa-solid fa-lightbulb"></i></div>
-                            <h4 class="mb-3 text-uppercase display-font">3D LED Illuminated Signs</h4>
-                            <p class="text-dark-gray mb-4" style="font-size: 0.9rem; line-height: 1.6;">
-                                Backlit, face-lit, and premium halo-lit channel letters. Fabricated from thick cast acrylic or polished brass plates, coupled with IP67 low-voltage waterproof LED modules for durability in humid Singapore conditions.
-                            </p>
-                        </div>
-                        <div class="mt-auto pt-3 border-top border-technical-subtle d-flex justify-content-between align-items-center">
-                            <span class="text-uppercase tracking-widest text-muted fw-bold" style="font-size: 0.7rem;">3-Year LED Warranty</span>
-                            <i class="fa-solid fa-arrow-right-long"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Service 2: Corporate Office Fitouts -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="service-card p-4 d-flex flex-column justify-content-between">
-                        <div>
-                            <div class="service-icon mb-4"><i class="fa-solid fa-building"></i></div>
-                            <h4 class="mb-3 text-uppercase display-font">Corporate Lobby Branding</h4>
-                            <p class="text-dark-gray mb-4" style="font-size: 0.9rem; line-height: 1.6;">
-                                High-profile reception backdrops, brushed metal directory grids, and structural dimensional plates. Available in hairline stainless steel, satin brass, or custom powder-coated finishes matched to corporate brand books.
-                            </p>
-                        </div>
-                        <div class="mt-auto pt-3 border-top border-technical-subtle d-flex justify-content-between align-items-center">
-                            <span class="text-uppercase tracking-widest text-muted fw-bold" style="font-size: 0.7rem;">Premium Office Fitout</span>
-                            <i class="fa-solid fa-arrow-right-long"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Service 3: Retail & Lightbox Display -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="service-card p-4 d-flex flex-column justify-content-between">
-                        <div>
-                            <div class="service-icon mb-4"><i class="fa-solid fa-store"></i></div>
-                            <h4 class="mb-3 text-uppercase display-font">Retail Shopfronts & Lightboxes</h4>
-                            <p class="text-dark-gray mb-4" style="font-size: 0.9rem; line-height: 1.6;">
-                                Double-sided projecting lightboxes, ultra-thin tension fabric light-frames, and architectural facade panels built according to strict landlord and shopping mall fit-out specifications.
-                            </p>
-                        </div>
-                        <div class="mt-auto pt-3 border-top border-technical-subtle d-flex justify-content-between align-items-center">
-                            <span class="text-uppercase tracking-widest text-muted fw-bold" style="font-size: 0.7rem;">Landlord Approved</span>
-                            <i class="fa-solid fa-arrow-right-long"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Service 4: Glass Decals & Privacy Frosted Film -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="service-card p-4 d-flex flex-column justify-content-between">
-                        <div>
-                            <div class="service-icon mb-4"><i class="fa-solid fa-border-none"></i></div>
-                            <h4 class="mb-3 text-uppercase display-font">Frosted Privacy Films & Vinyl</h4>
-                            <p class="text-dark-gray mb-4" style="font-size: 0.9rem; line-height: 1.6;">
-                                Precision plotter-cut frosted decals for meeting rooms, custom decorative geometric pattern films, and high-opacity colored corporate graphics. Bubble-free wet-applied by experienced installation crews.
-                            </p>
-                        </div>
-                        <div class="mt-auto pt-3 border-top border-technical-subtle d-flex justify-content-between align-items-center">
-                            <span class="text-uppercase tracking-widest text-muted fw-bold" style="font-size: 0.7rem;">Dust-Free Install</span>
-                            <i class="fa-solid fa-arrow-right-long"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Service 5: Heavy Metal Laser Cut Screen -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="service-card p-4 d-flex flex-column justify-content-between">
-                        <div>
-                            <div class="service-icon mb-4"><i class="fa-solid fa-bezier-curve"></i></div>
-                            <h4 class="mb-3 text-uppercase display-font">Laser Cutting & CNC Forming</h4>
-                            <p class="text-dark-gray mb-4" style="font-size: 0.9rem; line-height: 1.6;">
-                                In-house fiber-laser cutting up to 15mm thick sheets. Precision hydraulic press bending of aluminum cladding, brass panel etching, and custom steel sub-grid architectural steel reinforcement frames.
-                            </p>
-                        </div>
-                        <div class="mt-auto pt-3 border-top border-technical-subtle d-flex justify-content-between align-items-center">
-                            <span class="text-uppercase tracking-widest text-muted fw-bold" style="font-size: 0.7rem;">CNC Precision (0.1mm)</span>
-                            <i class="fa-solid fa-arrow-right-long"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Service 6: Wayfinding & SS508 Regulatory Boards -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="service-card p-4 d-flex flex-column justify-content-between">
-                        <div>
-                            <div class="service-icon mb-4"><i class="fa-solid fa-map-signs"></i></div>
-                            <h4 class="mb-3 text-uppercase display-font">Wayfinding & Safety Signs</h4>
-                            <p class="text-dark-gray mb-4" style="font-size: 0.9rem; line-height: 1.6;">
-                                Multi-tenant architectural directory boards, car park direction layouts, and industrial warning systems compliant with the official Singapore Standard **SS 508: Graphical Symbols & Safety Signs**.
-                            </p>
-                        </div>
-                        <div class="mt-auto pt-3 border-top border-technical-subtle d-flex justify-content-between align-items-center">
-                            <span class="text-uppercase tracking-widest text-muted fw-bold" style="font-size: 0.7rem;">SS 508 Compliant</span>
-                            <i class="fa-solid fa-arrow-right-long"></i>
-                        </div>
                     </div>
                 </div>
             </div>
