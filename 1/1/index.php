@@ -692,7 +692,6 @@
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-1 gap-lg-4">
                     <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">Signage Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Our Showcase</a></li>
                     <li class="nav-item"><a class="nav-link" href="#compliance">Safety & Compliance</a></li>
                     <li class="nav-item"><a class="nav-link" href="#estimator">Cost Calculator</a></li>
                 </ul>
@@ -914,105 +913,6 @@
                         <div class="mt-auto pt-3 border-top border-technical-subtle d-flex justify-content-between align-items-center">
                             <span class="text-uppercase tracking-widest text-muted fw-bold" style="font-size: 0.7rem;">SS 508 Compliant</span>
                             <i class="fa-solid fa-arrow-right-long"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="portfolio" class="py-5 bg-white border-bottom border-technical">
-        <div class="container py-5">
-            <div class="text-center mb-5">
-                <span class="text-uppercase tracking-wider text-muted fw-bold" style="font-size: 0.8rem; letter-spacing: 2px;">RECENTLY COMMISSIONED SIGNS IN SINGAPORE</span>
-                <h2 class="display-4 text-black mt-2">OUR RECENT WORKS</h2>
-            </div>
-
-            <!-- Portfolio Filter Buttons -->
-            <div class="d-flex flex-wrap justify-content-center gap-2 gap-md-4 mb-5 border-bottom border-technical-subtle pb-3">
-                <button class="portfolio-filter-btn active" onclick="filterPortfolio('all')">ALL WORKS</button>
-                <button class="portfolio-filter-btn" onclick="filterPortfolio('illuminated')">3D & LED LIGHTING</button>
-                <button class="portfolio-filter-btn" onclick="filterPortfolio('corporate')">OFFICE BRANDING</button>
-                <button class="portfolio-filter-btn" onclick="filterPortfolio('retail')">RETAIL SHOPFRONTS</button>
-                <button class="portfolio-filter-btn" onclick="filterPortfolio('metal')">METAL LASER CUT</button>
-            </div>
-
-            <!-- Portfolio Grid Content -->
-            <div class="row g-4" id="portfolio-grid">
-                <!-- Project Item 1 -->
-                <div class="col-md-6 col-lg-4 portfolio-item" data-category="illuminated">
-                    <div class="portfolio-card">
-                        <div class="portfolio-img-container">
-                            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=600&q=80" alt="LED Lightbox" class="portfolio-img" onerror="this.src='https://placehold.co/600x450/fff/000?text=3D+LED+Signage'">
-                        </div>
-                        <div class="portfolio-overlay">
-                            <span class="text-uppercase text-light-gray" style="font-size: 0.75rem; letter-spacing: 2px;">Marina Bay Mall</span>
-                            <h5 class="text-white mt-1 mb-0">High-Contrast LED Acrylic Letters</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project Item 2 -->
-                <div class="col-md-6 col-lg-4 portfolio-item" data-category="corporate">
-                    <div class="portfolio-card">
-                        <div class="portfolio-img-container">
-                            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=600&q=80" alt="Corporate Lobby Signage" class="portfolio-img" onerror="this.src='https://placehold.co/600x450/fff/000?text=Corporate+Backdrop'">
-                        </div>
-                        <div class="portfolio-overlay">
-                            <span class="text-uppercase text-light-gray" style="font-size: 0.75rem; letter-spacing: 2px;">Changi Business Park</span>
-                            <h5 class="text-white mt-1 mb-0">Laser-Cut Stainless Steel Backdrop</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project Item 3 -->
-                <div class="col-md-6 col-lg-4 portfolio-item" data-category="retail">
-                    <div class="portfolio-card">
-                        <div class="portfolio-img-container">
-                            <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=600&q=80" alt="Luxury Storefront Neon" class="portfolio-img" onerror="this.src='https://placehold.co/600x450/fff/000?text=Retail+Signage'">
-                        </div>
-                        <div class="portfolio-overlay">
-                            <span class="text-uppercase text-light-gray" style="font-size: 0.75rem; letter-spacing: 2px;">Orchard Road Store</span>
-                            <h5 class="text-white mt-1 mb-0">Custom Extruded Fabric Lightbox</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project Item 4 -->
-                <div class="col-md-6 col-lg-4 portfolio-item" data-category="metal">
-                    <div class="portfolio-card">
-                        <div class="portfolio-img-container">
-                            <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=600&q=80" alt="Laser Etched Sign" class="portfolio-img" onerror="this.src='https://placehold.co/600x450/fff/000?text=Metal+Laser+Cut'">
-                        </div>
-                        <div class="portfolio-overlay">
-                            <span class="text-uppercase text-light-gray" style="font-size: 0.75rem; letter-spacing: 2px;">Tuas Headquarters</span>
-                            <h5 class="text-white mt-1 mb-0">Brass Etched Dimensional Emblem</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project Item 5 -->
-                <div class="col-md-6 col-lg-4 portfolio-item" data-category="illuminated">
-                    <div class="portfolio-card">
-                        <div class="portfolio-img-container">
-                            <img src="https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=600&q=80" alt="Sleek Backlit Channel Sign" class="portfolio-img" onerror="this.src='https://placehold.co/600x450/fff/000?text=Halo+Lit+Sign'">
-                        </div>
-                        <div class="portfolio-overlay">
-                            <span class="text-uppercase text-light-gray" style="font-size: 0.75rem; letter-spacing: 2px;">Raffles Place Office</span>
-                            <h5 class="text-white mt-1 mb-0">Slimline Halo-lit Acrylic Logo</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project Item 6 -->
-                <div class="col-md-6 col-lg-4 portfolio-item" data-category="corporate">
-                    <div class="portfolio-card">
-                        <div class="portfolio-img-container">
-                            <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=600&q=80" alt="Frosted Glass Decals" class="portfolio-img" onerror="this.src='https://placehold.co/600x450/fff/000?text=Frosted+Glass+Film'">
-                        </div>
-                        <div class="portfolio-overlay">
-                            <span class="text-uppercase text-light-gray" style="font-size: 0.75rem; letter-spacing: 2px;">Tanjong Pagar Fintech</span>
-                            <h5 class="text-white mt-1 mb-0">Geometric Pattern Frosted Glazing</h5>
                         </div>
                     </div>
                 </div>
