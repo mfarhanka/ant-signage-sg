@@ -798,33 +798,6 @@
         </div>
     </section>
 
-    <section id="developer-showcase" class="developer-showcase-section py-5 border-bottom border-technical">
-        <div class="container py-4 py-lg-5">
-            <div class="developer-showcase-shell">
-                <div class="developer-showcase-content">
-                    <div class="developer-showcase-heading">
-                        <h2 class="display-font text-uppercase">Developer</h2>
-                    </div>
-
-                    <div class="developer-showcase-grid">
-                        <article class="developer-showcase-card">
-                            <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=900&q=80" alt="Developer facade signage" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Developer+Facade'">
-                        </article>
-                        <article class="developer-showcase-card">
-                            <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80" alt="Lobby developer branding sign" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Lobby+Branding'">
-                        </article>
-                        <article class="developer-showcase-card">
-                            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80" alt="Illuminated developer sign at night" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Illuminated+Sign'">
-                        </article>
-                        <article class="developer-showcase-card">
-                            <img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=900&q=80" alt="Large outdoor developer hoarding sign" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Outdoor+Hoarding'">
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="signboard-showcase" class="developer-showcase-section py-5 border-bottom border-technical">
         <div class="container py-4 py-lg-5">
             <div class="developer-showcase-shell">
