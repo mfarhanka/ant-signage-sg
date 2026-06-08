@@ -252,14 +252,12 @@
 
             const track = carousel.querySelector('.trusted-brands-track');
             const items = Array.from(carousel.querySelectorAll('.trusted-brands-item'));
-            const prevButton = document.querySelector('[data-brand-prev]');
-            const nextButton = document.querySelector('[data-brand-next]');
             const dotsContainer = carousel.querySelector('[data-brand-dots]');
             let currentIndex = 0;
             let maxIndex = 0;
             let autoplayId;
 
-            if (!track || !items.length || !prevButton || !nextButton || !dotsContainer) {
+            if (!track || !items.length || !dotsContainer) {
                 return;
             }
 
@@ -307,18 +305,10 @@
                 Array.from(dotsContainer.children).forEach((dot, index) => {
                     dot.classList.toggle('is-active', index === currentIndex);
                 });
-
-                prevButton.disabled = currentIndex === 0;
-                nextButton.disabled = currentIndex === maxIndex;
             }
 
             function goNext() {
                 currentIndex = currentIndex >= maxIndex ? 0 : currentIndex + 1;
-                updateCarousel();
-            }
-
-            function goPrev() {
-                currentIndex = currentIndex <= 0 ? maxIndex : currentIndex - 1;
                 updateCarousel();
             }
 
@@ -330,16 +320,6 @@
                 window.clearInterval(autoplayId);
                 startAutoplay();
             }
-
-            prevButton.addEventListener('click', () => {
-                goPrev();
-                restartAutoplay();
-            });
-
-            nextButton.addEventListener('click', () => {
-                goNext();
-                restartAutoplay();
-            });
 
             carousel.addEventListener('mouseenter', () => window.clearInterval(autoplayId));
             carousel.addEventListener('mouseleave', startAutoplay);

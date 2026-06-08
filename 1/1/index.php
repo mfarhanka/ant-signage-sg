@@ -136,28 +136,18 @@
                         A rotating selection of brands, institutions, and hospitality groups that have engaged us for fabrication, installation, and branded environmental signage work.
                     </p>
                 </div>
-                <div class="col-lg-5">
-                    <div class="trusted-brands-controls">
-                        <button type="button" class="trusted-brands-button" data-brand-prev aria-label="Previous trusted brands">
-                            <i class="fa-solid fa-arrow-left"></i>
-                        </button>
-                        <button type="button" class="trusted-brands-button" data-brand-next aria-label="Next trusted brands">
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </button>
-                    </div>
-                </div>
             </div>
 
             <div class="trusted-brands-carousel" id="trustedBrandsCarousel" aria-label="Trusted brands logo carousel">
                 <div class="trusted-brands-viewport">
                     <div class="trusted-brands-track">
-                        <div class="trusted-brands-item"><article class="trusted-brand-card"><img src="assets/images/trusted-brands/bridgestone-logo.png" alt="Bridgestone logo" class="trusted-brand-logo"></article></div>
-                        <div class="trusted-brands-item"><article class="trusted-brand-card"><img src="assets/images/trusted-brands/british-club-logo.png" alt="The British Club logo" class="trusted-brand-logo"></article></div>
-                        <div class="trusted-brands-item"><article class="trusted-brand-card"><img src="assets/images/trusted-brands/changi-airport-logo.png" alt="Changi Airport logo" class="trusted-brand-logo"></article></div>
-                        <div class="trusted-brands-item"><article class="trusted-brand-card"><img src="assets/images/trusted-brands/m1-logo.png" alt="M1 logo" class="trusted-brand-logo"></article></div>
-                        <div class="trusted-brands-item"><article class="trusted-brand-card"><img src="assets/images/trusted-brands/marubeni-logo.png" alt="Marubeni logo" class="trusted-brand-logo"></article></div>
-                        <div class="trusted-brands-item"><article class="trusted-brand-card"><img src="assets/images/trusted-brands/ritz-carlton-logo.png" alt="The Ritz-Carlton logo" class="trusted-brand-logo"></article></div>
-                        <div class="trusted-brands-item"><article class="trusted-brand-card"><img src="assets/images/trusted-brands/temasek-polytechnic-logo.png" alt="Temasek Polytechnic logo" class="trusted-brand-logo"></article></div>
+                        <div class="trusted-brands-item"><img src="assets/images/trusted-brands/bridgestone-logo.png" alt="Bridgestone logo" class="trusted-brand-logo"></div>
+                        <div class="trusted-brands-item"><img src="assets/images/trusted-brands/british-club-logo.png" alt="The British Club logo" class="trusted-brand-logo"></div>
+                        <div class="trusted-brands-item"><img src="assets/images/trusted-brands/changi-airport-logo.png" alt="Changi Airport logo" class="trusted-brand-logo"></div>
+                        <div class="trusted-brands-item"><img src="assets/images/trusted-brands/m1-logo.png" alt="M1 logo" class="trusted-brand-logo"></div>
+                        <div class="trusted-brands-item"><img src="assets/images/trusted-brands/marubeni-logo.png" alt="Marubeni logo" class="trusted-brand-logo"></div>
+                        <div class="trusted-brands-item"><img src="assets/images/trusted-brands/ritz-carlton-logo.png" alt="The Ritz-Carlton logo" class="trusted-brand-logo"></div>
+                        <div class="trusted-brands-item"><img src="assets/images/trusted-brands/temasek-polytechnic-logo.png" alt="Temasek Polytechnic logo" class="trusted-brand-logo"></div>
                     </div>
                 </div>
                 <div class="trusted-brands-footer">
