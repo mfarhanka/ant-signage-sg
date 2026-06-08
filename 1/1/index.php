@@ -380,6 +380,7 @@
         .developer-showcase-heading {
             text-align: center;
             margin-bottom: 32px;
+            animation: developerHeadingFloat 7s ease-in-out infinite;
         }
 
         .developer-showcase-heading h2 {
@@ -400,6 +401,8 @@
             min-height: 300px;
             background: var(--color-light-gray);
             border: 1px solid var(--color-subtle-border);
+            transition: box-shadow 320ms ease;
+            animation: developerCardFloat 6.5s ease-in-out infinite;
         }
 
         .developer-showcase-card img {
@@ -408,11 +411,16 @@
             object-fit: cover;
             display: block;
             transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), filter 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+            animation: developerImagePan 14s ease-in-out infinite;
         }
 
         .developer-showcase-card:hover img {
             transform: scale(1.035);
             filter: contrast(1.05);
+        }
+
+        .developer-showcase-card:hover {
+            box-shadow: 0 20px 44px rgba(0, 0, 0, 0.14);
         }
 
         .developer-showcase-card::after {
@@ -421,6 +429,60 @@
             inset: 0;
             background: linear-gradient(180deg, rgba(255, 255, 255, 0.02) 0%, rgba(0, 0, 0, 0.08) 100%);
             pointer-events: none;
+        }
+
+        .developer-showcase-card:nth-child(2) {
+            animation-delay: 140ms;
+        }
+
+        .developer-showcase-card:nth-child(3) {
+            animation-delay: 280ms;
+        }
+
+        .developer-showcase-card:nth-child(4) {
+            animation-delay: 420ms;
+        }
+
+        .developer-showcase-card:nth-child(2) img {
+            animation-delay: 180ms;
+        }
+
+        .developer-showcase-card:nth-child(3) img {
+            animation-delay: 360ms;
+        }
+
+        .developer-showcase-card:nth-child(4) img {
+            animation-delay: 540ms;
+        }
+
+        @keyframes developerHeadingFloat {
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-6px);
+            }
+        }
+
+        @keyframes developerCardFloat {
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        @keyframes developerImagePan {
+            0%,
+            100% {
+                transform: scale(1.02) translate3d(0, 0, 0);
+            }
+            50% {
+                transform: scale(1.06) translate3d(0, -8px, 0);
+            }
         }
 
         @media (max-width: 991.98px) {
@@ -449,6 +511,17 @@
 
             .developer-showcase-card {
                 min-height: 320px;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .developer-showcase-heading,
+            .developer-showcase-card,
+            .developer-showcase-card img {
+                animation: none;
+                transition: none;
+                transform: none;
+                opacity: 1;
             }
         }
     </style>
