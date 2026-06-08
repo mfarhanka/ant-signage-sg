@@ -235,16 +235,16 @@
 
                     <div class="developer-showcase-grid">
                         <article class="developer-showcase-card">
-                            <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=900&q=80" alt="Sticker branding applied on glass" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Sticker+1'">
+                            <img src="assets/images/sticker/sticker-jurong-gateway-hoarding.jpg" alt="Hoarding sticker installation at Jurong Gateway Singapore">
                         </article>
                         <article class="developer-showcase-card">
-                            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=80" alt="Window sticker and vinyl graphics" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Sticker+2'">
+                            <img src="assets/images/sticker/sticker-orchard-hoarding.jpg" alt="Hoarding sticker installation in Orchard Singapore">
                         </article>
                         <article class="developer-showcase-card">
-                            <img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=900&q=80" alt="Outdoor sticker promotional panel" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Sticker+3'">
+                            <img src="assets/images/sticker/sticker-seletar-hoarding.jpg" alt="Hoarding sticker installation in Seletar Singapore">
                         </article>
                         <article class="developer-showcase-card">
-                            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80" alt="Interior wall sticker installation" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Sticker+4'">
+                            <img src="assets/images/sticker/sticker-katong-wall.jpg" alt="Wall sticker installation in Katong Singapore">
                         </article>
                     </div>
                 </div>
