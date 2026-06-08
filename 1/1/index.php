@@ -692,7 +692,6 @@
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-1 gap-lg-4">
                     <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">Signage Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#materials">Material Specifications</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">Our Showcase</a></li>
                     <li class="nav-item"><a class="nav-link" href="#compliance">Safety & Compliance</a></li>
                     <li class="nav-item"><a class="nav-link" href="#estimator">Cost Calculator</a></li>
@@ -922,67 +921,6 @@
         </div>
     </section>
 
-    <section id="materials" class="py-5 bg-light border-bottom border-technical">
-        <div class="container py-5">
-            <div class="text-center mb-5">
-                <span class="text-uppercase tracking-wider text-muted fw-bold" style="font-size: 0.8rem; letter-spacing: 2px;">METICULOUS MATERIAL SCIENCE</span>
-                <h2 class="display-4 text-black mt-2">FABRICATION SPECIFICATIONS</h2>
-                <p class="text-dark-gray mx-auto max-w-lg" style="font-weight: 400;">
-                    We do not compromise on base materials. View our structural engineering components explicitly calculated to withstand weather variables and retain structural rigidity.
-                </p>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-xl-10">
-                    <div class="table-responsive border border-technical">
-                        <table class="table spec-table table-hover mb-0 bg-white">
-                            <thead>
-                                <tr>
-                                    <th scope="col" style="width: 25%;">Material Category</th>
-                                    <th scope="col" style="width: 25%;">Premium Grade Option</th>
-                                    <th scope="col" style="width: 35%;">Recommended Application / Environment</th>
-                                    <th scope="col" style="width: 15%;" class="text-center">UV Resistance</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="fw-bold text-black"><i class="fa-solid fa-layer-group me-2"></i>Stainless Steel</td>
-                                    <td>Grade 316 Marine Stainless Steel</td>
-                                    <td>External building facades, coastal regions, heavy external weather profiles. Defeats rust build-up completely.</td>
-                                    <td class="text-center"><span class="badge bg-black text-white px-2 py-1 rounded-0">EXCELLENT</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="fw-bold text-black"><i class="fa-solid fa-wand-magic-sparkles me-2"></i>Cast Acrylics</td>
-                                    <td>Mitsubishi Chem Cast Acrylic (3-20mm)</td>
-                                    <td>Dimensional indoor lettering, logo structures, translucent back-lit panels. Exceptional light dispersion.</td>
-                                    <td class="text-center"><span class="badge bg-black text-white px-2 py-1 rounded-0">HIGH</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="fw-bold text-black"><i class="fa-solid fa-bolt me-2"></i>Illumination Modules</td>
-                                    <td>Osram Opto Semiconductors (IP67)</td>
-                                    <td>Internal grids for 3D channel letters and lightbox framing. 12V / 24V low-heat, high-lumen grids.</td>
-                                    <td class="text-center"><span class="badge bg-black text-white px-2 py-1 rounded-0">EXCELLENT</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="fw-bold text-black"><i class="fa-solid fa-tape me-2"></i>Self-Adhesives</td>
-                                    <td>3M IJ180MC Performance Cast Wrap</td>
-                                    <td>Outdoor pillar graphics, shopping mall hoarding, glass frosting applications. Bubble-free adhesive technology.</td>
-                                    <td class="text-center"><span class="badge bg-black text-white px-2 py-1 rounded-0">HIGH</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="fw-bold text-black"><i class="fa-solid fa-screwdriver-wrench me-2"></i>Internal Mounting</td>
-                                    <td>Hot-Dip Galvanized Structural Steel</td>
-                                    <td>External heavy pylon cores, large structural roof signs. Wind load structural support structures.</td>
-                                    <td class="text-center"><span class="badge bg-black text-white px-2 py-1 rounded-0">EXCELLENT</span></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="portfolio" class="py-5 bg-white border-bottom border-technical">
         <div class="container py-5">
             <div class="text-center mb-5">
@@ -1075,80 +1013,6 @@
                         <div class="portfolio-overlay">
                             <span class="text-uppercase text-light-gray" style="font-size: 0.75rem; letter-spacing: 2px;">Tanjong Pagar Fintech</span>
                             <h5 class="text-white mt-1 mb-0">Geometric Pattern Frosted Glazing</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="compliance" class="py-5 bg-light border-bottom border-technical">
-        <div class="container py-5">
-            <div class="row align-items-center g-5">
-                <div class="col-lg-6">
-                    <span class="text-uppercase tracking-wider text-muted fw-bold" style="font-size: 0.8rem; letter-spacing: 2px;">SAFETY PROTOCOLS & ACCREDITATIONS</span>
-                    <h2 class="display-4 text-black mt-2 mb-4">COMPLIANCE & GOVERNMENT SUBMISSIONS</h2>
-                    <p class="text-dark-gray mb-4" style="font-weight: 400; line-height: 1.8;">
-                        Installing signage in Singapore requires strict compliance with local building standards. We manage structural site surveys, wind-load calculation logs, and coordination with various authorities to keep your project fully compliant.
-                    </p>
-                    
-                    <ul class="list-unstyled d-flex flex-column gap-3 text-dark-gray">
-                        <li class="d-flex align-items-start gap-3 border-bottom border-technical-subtle pb-3">
-                            <span class="step-circle font-monospace">1</span>
-                            <div>
-                                <strong class="text-black d-block">BCA CR11 Licensing</strong>
-                                Officially registered under the Building and Construction Authority for signage fabrication and structural structural engineering.
-                            </div>
-                        </li>
-                        <li class="d-flex align-items-start gap-3 border-bottom border-technical-subtle pb-3">
-                            <span class="step-circle font-monospace">2</span>
-                            <div>
-                                <strong class="text-black d-block">bizSAFE Star Status</strong>
-                                Certified under WSHC (Workplace Safety and Health Council) for advanced safety risk assessment matrices across construction sites.
-                            </div>
-                        </li>
-                        <li class="d-flex align-items-start gap-3">
-                            <span class="step-circle font-monospace">3</span>
-                            <div>
-                                <strong class="text-black d-block">URA Advertising Clearance</strong>
-                                Complete management of Urban Redevelopment Authority planning approvals for outdoor commercial facades.
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="row g-4">
-                        <div class="col-sm-6">
-                            <div class="trust-badge-container text-center">
-                                <i class="fa-solid fa-shield-halved text-black mb-3" style="font-size: 2.5rem;"></i>
-                                <h5 class="text-black mb-2">bizSAFE Star</h5>
-                                <p class="text-dark-gray mb-0" style="font-size: 0.85rem;">MOM certified risk-free on-site scaffolding and high-elevation operations.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <div class="trust-badge-container text-center">
-                                <i class="fa-solid fa-passport text-black mb-3" style="font-size: 2.5rem;"></i>
-                                <h5 class="text-black mb-2">BCA CR11</h5>
-                                <p class="text-dark-gray mb-0" style="font-size: 0.85rem;">Licensed to engineer, construct, and legally secure heavy signage components.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <div class="trust-badge-container text-center">
-                                <i class="fa-solid fa-file-signature text-black mb-3" style="font-size: 2.5rem;"></i>
-                                <h5 class="text-black mb-2">PE Endorsements</h5>
-                                <p class="text-dark-gray mb-0" style="font-size: 0.85rem;">Qualified Professional Engineers validating structural calculation stability.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <div class="trust-badge-container text-center">
-                                <i class="fa-solid fa-industry text-black mb-3" style="font-size: 2.5rem;"></i>
-                                <h5 class="text-black mb-2">SS 508 Compliant</h5>
-                                <p class="text-dark-gray mb-0" style="font-size: 0.85rem;">Graphic icons and safety directional lines fully adapted to SG local standards.</p>
-                            </div>
                         </div>
                     </div>
                 </div>
