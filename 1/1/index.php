@@ -208,16 +208,16 @@
 
                     <div class="developer-showcase-grid">
                         <article class="developer-showcase-card">
-                            <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=900&q=80" alt="Retail lightbox signage facade" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Lightbox+1'">
+                            <img src="assets/images/lightbox/lightbox-holland-village-acrylic-wholelit.jpg" alt="Acrylic wholelit lightbox installation in Holland Village Singapore">
                         </article>
                         <article class="developer-showcase-card">
-                            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80" alt="Illuminated lightbox branding installation" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Lightbox+2'">
+                            <img src="assets/images/lightbox/lightbox-dickson-double-sided.jpg" alt="Double-sided lightbox installation in Dickson Singapore">
                         </article>
                         <article class="developer-showcase-card">
-                            <img src="https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=900&q=80" alt="Slim lightbox logo sign" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Lightbox+3'">
+                            <img src="assets/images/lightbox/lightbox-hanging-installation-singapore.jpg" alt="Hanging lightbox installation in Singapore">
                         </article>
                         <article class="developer-showcase-card">
-                            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80" alt="Interior commercial lightbox display" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Lightbox+4'">
+                            <img src="assets/images/lightbox/lightbox-ang-mo-kio-menu.jpg" alt="Menu lightbox installation in Ang Mo Kio Singapore">
                         </article>
                     </div>
                 </div>
