@@ -273,6 +273,93 @@
             padding: 30px 0;
         }
 
+        .reviews-section {
+            background: var(--color-pure-white);
+        }
+
+        .reviews-summary {
+            height: 100%;
+            padding: 32px;
+            border: 1px solid var(--color-pure-black);
+            background: var(--color-light-gray);
+        }
+
+        .reviews-score {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: clamp(3rem, 7vw, 5rem);
+            line-height: 0.9;
+            letter-spacing: -0.05em;
+            color: var(--color-pure-black);
+        }
+
+        .reviews-stars {
+            letter-spacing: 0.35em;
+            font-size: 0.95rem;
+        }
+
+        .review-card-custom {
+            height: 100%;
+            padding: 28px;
+            border: 1px solid var(--color-subtle-border);
+            background: var(--color-pure-white);
+            transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .review-card-custom:hover {
+            transform: translateY(-6px);
+            border-color: var(--color-pure-black);
+            box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+        }
+
+        .review-source {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 16px;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--color-pure-black);
+        }
+
+        .review-source-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #4285f4;
+            box-shadow: 14px 0 0 #ea4335, 28px 0 0 #fbbc05, 42px 0 0 #34a853;
+            margin-right: 42px;
+        }
+
+        .review-quote {
+            margin-bottom: 18px;
+            color: var(--color-near-black);
+            font-size: 1rem;
+            line-height: 1.75;
+        }
+
+        .review-meta-name {
+            display: block;
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            color: var(--color-pure-black);
+        }
+
+        .review-meta-role {
+            color: var(--color-dark-gray);
+            font-size: 0.88rem;
+        }
+
+        @media (max-width: 575.98px) {
+            .reviews-summary,
+            .review-card-custom {
+                padding: 22px;
+            }
+        }
+
         /* Material Specification Table */
         .spec-table th {
             background-color: var(--color-pure-black) !important;
@@ -1005,6 +1092,61 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="reviews-section py-5 border-bottom border-technical">
+        <div class="container py-5">
+            <div class="row align-items-end mb-5 g-4">
+                <div class="col-lg-7">
+                    <span class="text-uppercase tracking-wider text-muted fw-bold" style="font-size: 0.8rem; letter-spacing: 2px;">TESTIMONIALS & GOOGLE REVIEWS</span>
+                    <h2 class="display-4 text-black mt-2 mb-3">Trusted By Clients Who Need Signage Delivered Right</h2>
+                    <p class="text-dark-gray mb-0" style="font-weight: 400; line-height: 1.8; max-width: 720px;">
+                        Business owners, developers, and office fit-out teams rely on us for clear timelines, precise fabrication, and clean on-site installation. Here is a snapshot of the feedback we consistently receive after project handover.
+                    </p>
+                </div>
+                <div class="col-lg-5">
+                    <div class="reviews-summary">
+                        <span class="text-uppercase tracking-wider text-muted fw-bold d-block mb-3" style="font-size: 0.78rem; letter-spacing: 2px;">Google Review Snapshot</span>
+                        <div class="reviews-score mb-2">4.9</div>
+                        <div class="reviews-stars text-black mb-3">★★★★★</div>
+                        <p class="text-dark-gray mb-0" style="line-height: 1.8;">Average rating based on recent client feedback for responsiveness, workmanship quality, and installation reliability.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-xl-4">
+                    <article class="review-card-custom">
+                        <span class="review-source"><span class="review-source-dot"></span>Google Review</span>
+                        <p class="review-quote">“Very professional from site measurement to final install. The illuminated signboard looked exactly like the approved artwork and the team kept the timeline tight.”</p>
+                        <div>
+                            <span class="review-meta-name">Marcus Tan</span>
+                            <span class="review-meta-role">Retail business owner, Singapore</span>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <article class="review-card-custom">
+                        <span class="review-source"><span class="review-source-dot"></span>Google Review</span>
+                        <p class="review-quote">“Fast response, clear quotation, and excellent workmanship. Our office branding wall and acrylic lettering were installed neatly with minimal disruption.”</p>
+                        <div>
+                            <span class="review-meta-name">Alicia Goh</span>
+                            <span class="review-meta-role">Corporate office manager</span>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <article class="review-card-custom">
+                        <span class="review-source"><span class="review-source-dot"></span>Client Testimonial</span>
+                        <p class="review-quote">“They coordinated well with our developer timeline and landlord requirements. The final hoarding, lightbox, and directional signs were consistent and well finished.”</p>
+                        <div>
+                            <span class="review-meta-name">Shawn Lim</span>
+                            <span class="review-meta-role">Project coordinator, mixed-use development</span>
+                        </div>
+                    </article>
                 </div>
             </div>
         </div>
