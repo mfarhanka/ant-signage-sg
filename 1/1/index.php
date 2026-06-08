@@ -1037,6 +1037,33 @@
         </div>
     </section>
 
+    <section id="signboard-showcase" class="developer-showcase-section py-5 border-bottom border-technical">
+        <div class="container py-4 py-lg-5">
+            <div class="developer-showcase-shell">
+                <div class="developer-showcase-content">
+                    <div class="developer-showcase-heading">
+                        <h2 class="display-font text-uppercase">3D Signboard</h2>
+                    </div>
+
+                    <div class="developer-showcase-grid">
+                        <article class="developer-showcase-card">
+                            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80" alt="3D illuminated signboard installation" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=3D+Signboard+1'">
+                        </article>
+                        <article class="developer-showcase-card">
+                            <img src="https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=900&q=80" alt="Halo-lit acrylic signboard" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=3D+Signboard+2'">
+                        </article>
+                        <article class="developer-showcase-card">
+                            <img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=900&q=80" alt="Outdoor 3D shopfront signboard" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=3D+Signboard+3'">
+                        </article>
+                        <article class="developer-showcase-card">
+                            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=80" alt="Interior branded 3D signboard" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=3D+Signboard+4'">
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="estimator" class="py-5 bg-white border-bottom border-technical">
         <div class="container py-5">
             <div class="row justify-content-center mb-5">
