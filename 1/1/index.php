@@ -1064,6 +1064,87 @@
         </div>
     </section>
 
+    <section id="acrylic-showcase" class="developer-showcase-section py-5 border-bottom border-technical">
+        <div class="container py-4 py-lg-5">
+            <div class="developer-showcase-shell">
+                <div class="developer-showcase-content">
+                    <div class="developer-showcase-heading">
+                        <h2 class="display-font text-uppercase">Acrylic Signage</h2>
+                    </div>
+
+                    <div class="developer-showcase-grid">
+                        <article class="developer-showcase-card">
+                            <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80" alt="Acrylic lobby signage installation" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Acrylic+Signage+1'">
+                        </article>
+                        <article class="developer-showcase-card">
+                            <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=900&q=80" alt="Frosted acrylic branding panel" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Acrylic+Signage+2'">
+                        </article>
+                        <article class="developer-showcase-card">
+                            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80" alt="Illuminated acrylic sign display" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Acrylic+Signage+3'">
+                        </article>
+                        <article class="developer-showcase-card">
+                            <img src="https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=900&q=80" alt="Raised acrylic logo signage" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Acrylic+Signage+4'">
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="lightbox-showcase" class="developer-showcase-section py-5 border-bottom border-technical">
+        <div class="container py-4 py-lg-5">
+            <div class="developer-showcase-shell">
+                <div class="developer-showcase-content">
+                    <div class="developer-showcase-heading">
+                        <h2 class="display-font text-uppercase">Lightbox</h2>
+                    </div>
+
+                    <div class="developer-showcase-grid">
+                        <article class="developer-showcase-card">
+                            <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=900&q=80" alt="Retail lightbox signage facade" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Lightbox+1'">
+                        </article>
+                        <article class="developer-showcase-card">
+                            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80" alt="Illuminated lightbox branding installation" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Lightbox+2'">
+                        </article>
+                        <article class="developer-showcase-card">
+                            <img src="https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=900&q=80" alt="Slim lightbox logo sign" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Lightbox+3'">
+                        </article>
+                        <article class="developer-showcase-card">
+                            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80" alt="Interior commercial lightbox display" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Lightbox+4'">
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sticker-showcase" class="developer-showcase-section py-5 border-bottom border-technical">
+        <div class="container py-4 py-lg-5">
+            <div class="developer-showcase-shell">
+                <div class="developer-showcase-content">
+                    <div class="developer-showcase-heading">
+                        <h2 class="display-font text-uppercase">Sticker</h2>
+                    </div>
+
+                    <div class="developer-showcase-grid">
+                        <article class="developer-showcase-card">
+                            <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=900&q=80" alt="Sticker branding applied on glass" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Sticker+1'">
+                        </article>
+                        <article class="developer-showcase-card">
+                            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=80" alt="Window sticker and vinyl graphics" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Sticker+2'">
+                        </article>
+                        <article class="developer-showcase-card">
+                            <img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=900&q=80" alt="Outdoor sticker promotional panel" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Sticker+3'">
+                        </article>
+                        <article class="developer-showcase-card">
+                            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80" alt="Interior wall sticker installation" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Sticker+4'">
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="estimator" class="py-5 bg-white border-bottom border-technical">
         <div class="container py-5">
             <div class="row justify-content-center mb-5">
