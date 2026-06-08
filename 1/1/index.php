@@ -181,16 +181,16 @@
 
                     <div class="developer-showcase-grid">
                         <article class="developer-showcase-card">
-                            <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80" alt="Acrylic lobby signage installation" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Acrylic+Signage+1'">
+                            <img src="assets/images/acrylic-signage/acrylic-signage-anson-road-cut-out-lettering.jpg" alt="Acrylic cut-out lettering installation at Anson Road Singapore">
                         </article>
                         <article class="developer-showcase-card">
-                            <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=900&q=80" alt="Frosted acrylic branding panel" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Acrylic+Signage+2'">
+                            <img src="assets/images/acrylic-signage/acrylic-signage-toa-payoh-cut-out-signage.jpg" alt="Acrylic cut-out signage installation in Toa Payoh Singapore">
                         </article>
                         <article class="developer-showcase-card">
-                            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80" alt="Illuminated acrylic sign display" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Acrylic+Signage+3'">
+                            <img src="assets/images/acrylic-signage/acrylic-signage-novena-shopfront.jpg" alt="Acrylic shopfront signage installation in Novena Singapore">
                         </article>
                         <article class="developer-showcase-card">
-                            <img src="https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=900&q=80" alt="Raised acrylic logo signage" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Acrylic+Signage+4'">
+                            <img src="assets/images/acrylic-signage/acrylic-signage-woodlands-office.jpg" alt="Office acrylic signage installation in Woodlands Singapore">
                         </article>
                     </div>
                 </div>
