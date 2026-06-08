@@ -1156,87 +1156,6 @@
         </div>
     </section>
 
-    <section id="testimonials" class="reviews-section py-5 border-bottom border-technical">
-        <div class="container py-5">
-            <div class="row align-items-end mb-5 g-4">
-                <div class="col-lg-12 text-center">
-                    <h2 class="display-4 text-black mt-2 mb-3">Trusted By Clients Who Need Signage Delivered Right</h2>
-                    <p class="text-dark-gray mb-0 mx-auto" style="font-weight: 400; line-height: 1.8; max-width: 720px;">
-                        Business owners, developers, and office fit-out teams rely on us for clear timelines, precise fabrication, and clean on-site installation. Here is a snapshot of the feedback we consistently receive after project handover.
-                    </p>
-                </div>
-            </div>
-
-            <div class="reviews-carousel" id="reviewsCarousel" aria-label="Client testimonials carousel">
-                <div class="reviews-carousel-viewport">
-                    <div class="reviews-carousel-track">
-                        <div class="reviews-carousel-item">
-                            <article class="review-card-custom">
-                                <span class="review-source"><span class="review-source-dot"></span>Google Review</span>
-                                <p class="review-quote">“Very professional from site measurement to final install. The illuminated signboard looked exactly like the approved artwork and the team kept the timeline tight.”</p>
-                                <div>
-                                    <span class="review-meta-name">Marcus Tan</span>
-                                    <span class="review-meta-role">Retail business owner, Singapore</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="reviews-carousel-item">
-                            <article class="review-card-custom">
-                                <span class="review-source"><span class="review-source-dot"></span>Google Review</span>
-                                <p class="review-quote">“Fast response, clear quotation, and excellent workmanship. Our office branding wall and acrylic lettering were installed neatly with minimal disruption.”</p>
-                                <div>
-                                    <span class="review-meta-name">Alicia Goh</span>
-                                    <span class="review-meta-role">Corporate office manager</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="reviews-carousel-item">
-                            <article class="review-card-custom">
-                                <span class="review-source"><span class="review-source-dot"></span>Client Testimonial</span>
-                                <p class="review-quote">“They coordinated well with our developer timeline and landlord requirements. The final hoarding, lightbox, and directional signs were consistent and well finished.”</p>
-                                <div>
-                                    <span class="review-meta-name">Shawn Lim</span>
-                                    <span class="review-meta-role">Project coordinator, mixed-use development</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="reviews-carousel-item">
-                            <article class="review-card-custom">
-                                <span class="review-source"><span class="review-source-dot"></span>Google Review</span>
-                                <p class="review-quote">“The team handled our mall submission requirements properly and the finished signage looked premium. Installation was neat and fast.”</p>
-                                <div>
-                                    <span class="review-meta-name">Nur Aisyah</span>
-                                    <span class="review-meta-role">Retail operations lead</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="reviews-carousel-item">
-                            <article class="review-card-custom">
-                                <span class="review-source"><span class="review-source-dot"></span>Client Testimonial</span>
-                                <p class="review-quote">“Good communication, realistic lead time, and strong finishing quality. The wayfinding signs and lightbox set were delivered exactly as discussed.”</p>
-                                <div>
-                                    <span class="review-meta-name">Daniel Chua</span>
-                                    <span class="review-meta-role">Facilities manager, commercial building</span>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-                <div class="reviews-carousel-controls">
-                    <div class="reviews-carousel-buttons">
-                        <button type="button" class="reviews-carousel-button" data-review-prev aria-label="Previous reviews">
-                            <i class="fa-solid fa-arrow-left"></i>
-                        </button>
-                        <button type="button" class="reviews-carousel-button" data-review-next aria-label="Next reviews">
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </button>
-                    </div>
-                    <div class="reviews-carousel-dots" data-review-dots aria-label="Review pages"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="developer-showcase" class="developer-showcase-section py-5 border-bottom border-technical">
         <div class="container py-4 py-lg-5">
             <div class="developer-showcase-shell">
@@ -1367,6 +1286,87 @@
                             <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80" alt="Interior wall sticker installation" onerror="this.src='https://placehold.co/900x1200/ffffff/111111?text=Sticker+4'">
                         </article>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="reviews-section py-5 border-bottom border-technical">
+        <div class="container py-5">
+            <div class="row align-items-end mb-5 g-4">
+                <div class="col-lg-12 text-center">
+                    <h2 class="display-4 text-black mt-2 mb-3">Trusted By Clients Who Need Signage Delivered Right</h2>
+                    <p class="text-dark-gray mb-0 mx-auto" style="font-weight: 400; line-height: 1.8; max-width: 720px;">
+                        Business owners, developers, and office fit-out teams rely on us for clear timelines, precise fabrication, and clean on-site installation. Here is a snapshot of the feedback we consistently receive after project handover.
+                    </p>
+                </div>
+            </div>
+
+            <div class="reviews-carousel" id="reviewsCarousel" aria-label="Client testimonials carousel">
+                <div class="reviews-carousel-viewport">
+                    <div class="reviews-carousel-track">
+                        <div class="reviews-carousel-item">
+                            <article class="review-card-custom">
+                                <span class="review-source"><span class="review-source-dot"></span>Google Review</span>
+                                <p class="review-quote">“Very professional from site measurement to final install. The illuminated signboard looked exactly like the approved artwork and the team kept the timeline tight.”</p>
+                                <div>
+                                    <span class="review-meta-name">Marcus Tan</span>
+                                    <span class="review-meta-role">Retail business owner, Singapore</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="reviews-carousel-item">
+                            <article class="review-card-custom">
+                                <span class="review-source"><span class="review-source-dot"></span>Google Review</span>
+                                <p class="review-quote">“Fast response, clear quotation, and excellent workmanship. Our office branding wall and acrylic lettering were installed neatly with minimal disruption.”</p>
+                                <div>
+                                    <span class="review-meta-name">Alicia Goh</span>
+                                    <span class="review-meta-role">Corporate office manager</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="reviews-carousel-item">
+                            <article class="review-card-custom">
+                                <span class="review-source"><span class="review-source-dot"></span>Client Testimonial</span>
+                                <p class="review-quote">“They coordinated well with our developer timeline and landlord requirements. The final hoarding, lightbox, and directional signs were consistent and well finished.”</p>
+                                <div>
+                                    <span class="review-meta-name">Shawn Lim</span>
+                                    <span class="review-meta-role">Project coordinator, mixed-use development</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="reviews-carousel-item">
+                            <article class="review-card-custom">
+                                <span class="review-source"><span class="review-source-dot"></span>Google Review</span>
+                                <p class="review-quote">“The team handled our mall submission requirements properly and the finished signage looked premium. Installation was neat and fast.”</p>
+                                <div>
+                                    <span class="review-meta-name">Nur Aisyah</span>
+                                    <span class="review-meta-role">Retail operations lead</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="reviews-carousel-item">
+                            <article class="review-card-custom">
+                                <span class="review-source"><span class="review-source-dot"></span>Client Testimonial</span>
+                                <p class="review-quote">“Good communication, realistic lead time, and strong finishing quality. The wayfinding signs and lightbox set were delivered exactly as discussed.”</p>
+                                <div>
+                                    <span class="review-meta-name">Daniel Chua</span>
+                                    <span class="review-meta-role">Facilities manager, commercial building</span>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-carousel-controls">
+                    <div class="reviews-carousel-buttons">
+                        <button type="button" class="reviews-carousel-button" data-review-prev aria-label="Previous reviews">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                        <button type="button" class="reviews-carousel-button" data-review-next aria-label="Next reviews">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="reviews-carousel-dots" data-review-dots aria-label="Review pages"></div>
                 </div>
             </div>
         </div>
