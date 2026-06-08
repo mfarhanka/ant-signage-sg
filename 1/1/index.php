@@ -365,58 +365,11 @@
             background-position: center top;
         }
 
-        .developer-showcase-section::before {
-            content: '';
-            position: absolute;
-            top: 12px;
-            left: 12px;
-            width: 26px;
-            height: 26px;
-            border-radius: 50%;
-            background: #ffde1f;
-            box-shadow: 0 0 0 8px rgba(255, 222, 31, 0.08);
-        }
-
         .developer-showcase-shell {
             position: relative;
             display: grid;
-            grid-template-columns: 64px minmax(0, 1fr);
-            gap: 28px;
+            grid-template-columns: 1fr;
             align-items: start;
-        }
-
-        .developer-showcase-rail {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100%;
-            padding-top: 160px;
-        }
-
-        .developer-showcase-rail-inner {
-            writing-mode: vertical-rl;
-            transform: rotate(180deg);
-            display: flex;
-            align-items: center;
-            gap: 22px;
-            color: var(--color-pure-black);
-        }
-
-        .developer-showcase-label,
-        .developer-showcase-channel {
-            font-family: 'Space Grotesk', sans-serif;
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-        }
-
-        .developer-showcase-label {
-            font-size: 1.05rem;
-            font-weight: 500;
-        }
-
-        .developer-showcase-channel {
-            font-size: 0.9rem;
-            font-weight: 600;
         }
 
         .developer-showcase-content {
@@ -474,18 +427,6 @@
             .developer-showcase-shell {
                 grid-template-columns: 1fr;
                 gap: 20px;
-            }
-
-            .developer-showcase-rail {
-                justify-content: flex-start;
-                padding-top: 0;
-            }
-
-            .developer-showcase-rail-inner {
-                writing-mode: horizontal-tb;
-                transform: none;
-                flex-wrap: wrap;
-                gap: 14px;
             }
 
             .developer-showcase-grid {
@@ -999,15 +940,6 @@
     <section id="developer-showcase" class="developer-showcase-section py-5 border-bottom border-technical">
         <div class="container py-4 py-lg-5">
             <div class="developer-showcase-shell">
-                <aside class="developer-showcase-rail" aria-label="Social channels">
-                    <div class="developer-showcase-rail-inner">
-                        <span class="developer-showcase-label">Follow us.</span>
-                        <span class="developer-showcase-channel">FB.</span>
-                        <span class="developer-showcase-channel">IG</span>
-                        <span class="developer-showcase-channel">XHS</span>
-                    </div>
-                </aside>
-
                 <div class="developer-showcase-content">
                     <div class="developer-showcase-heading">
                         <h2 class="display-font text-uppercase">Developer</h2>
