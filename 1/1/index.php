@@ -41,8 +41,8 @@
                     <li class="nav-item"><a class="nav-link" href="#estimator">Cost Calculator</a></li>
                 </ul>
                 <div class="d-flex align-items-center gap-3">
-                    <a href="tel:+6567470000" class="text-black text-decoration-none d-none d-xl-inline-block fw-bold text-nowrap" style="font-size: 0.85rem;">
-                        <i class="fa-solid fa-phone me-1"></i>+65 6747 0000
+                    <a href="https://wa.me/6582861600" class="text-black text-decoration-none d-none d-xl-inline-block fw-bold text-nowrap" style="font-size: 0.85rem;" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-phone me-1"></i>+65 8286 1600
                     </a>
                     <a href="#quote-form" class="btn-wb-solid">Get Quote</a>
                 </div>
@@ -524,6 +524,71 @@
         </div>
     </section>
 
+    <section id="location-map" class="location-map-section py-5 border-bottom border-technical">
+        <div class="container py-4 py-lg-5">
+            <div class="row align-items-stretch g-4 g-lg-5">
+                <div class="col-lg-5">
+                    <div class="location-map-copy h-100">
+                        <span class="text-uppercase tracking-wider text-muted fw-bold" style="font-size: 0.8rem; letter-spacing: 2px;">Visit Our Workshop</span>
+                        <h2 class="display-5 text-black mt-2 mb-3">Find Signage SG In Singapore</h2>
+                        <p class="text-dark-gray mb-4" style="font-weight: 400; line-height: 1.8;">
+                            Drop by our production workshop for material reviews, fabrication discussions, or a site coordination meeting before installation.
+                        </p>
+
+                        <div class="location-map-details border-technical">
+                            <div class="d-flex align-items-start gap-3">
+                                <i class="fa-solid fa-location-dot location-map-icon"></i>
+                                <div>
+                                    <h3 class="location-map-label">Workshop Address</h3>
+                                    <p class="mb-0 text-dark-gray">601 Ang Mo Kio Avenue 5, 560601, Singapore</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start gap-3">
+                                <i class="fa-solid fa-clock location-map-icon"></i>
+                                <div>
+                                    <h3 class="location-map-label">Opening Hours</h3>
+                                    <p class="mb-0 text-dark-gray">Mon - Fri: 9.00 a.m. - 6.00 p.m.<br>Sat - Sun: Closed</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start gap-3">
+                                <i class="fa-solid fa-phone location-map-icon"></i>
+                                <div>
+                                    <h3 class="location-map-label">Call Ahead</h3>
+                                    <p class="mb-0 text-dark-gray"><a href="https://wa.me/6582861600" class="text-dark-gray text-decoration-none" target="_blank" rel="noopener noreferrer">+65 8286 1600 (Gan)</a></p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start gap-3">
+                                <i class="fa-solid fa-envelope location-map-icon"></i>
+                                <div>
+                                    <h3 class="location-map-label">Email</h3>
+                                    <p class="mb-0 text-dark-gray"><a href="mailto:antadv.gan@gmail.com" class="text-dark-gray text-decoration-none">antadv.gan@gmail.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-wrap gap-3 mt-4">
+                            <a href="https://www.google.com/maps/dir//601+Ang+Mo+Kio+Ave+5,+Singapore+560601/@1.3810727,103.7527332,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x31da17d5f2e7aa53:0x272dd0c8468829ed!2m2!1d103.8351352!2d1.3810741?entry=ttu&g_ep=EgoyMDI0MTAwOC4wIKXMDSoASAFQAw%3D%3D" class="btn-wb-solid" target="_blank" rel="noopener noreferrer">Open In Google Maps</a>
+                            <a href="#quote-form" class="btn-wb-outline">Book A Visit</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="location-map-frame-wrap border-technical h-100">
+                        <iframe
+                            class="location-map-frame"
+                            src="https://www.google.com/maps?q=601%20Ang%20Mo%20Kio%20Avenue%205%2C%20560601%2C%20Singapore&z=16&output=embed"
+                            title="Signage SG location map"
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer class="mt-auto py-5 bg-black text-white">
         <div class="container py-3">
             <div class="row g-5">
@@ -557,17 +622,21 @@
                             <i class="fa-solid fa-location-dot mt-1 text-white"></i>
                             <div>
                                 <strong>Signage SG Private Limited</strong><br>
-                                12 Geylang Lorong 23, Industrial Block B #04-01,<br>
-                                Singapore 388351
+                                601 Ang Mo Kio Avenue 5,<br>
+                                560601, Singapore
                             </div>
                         </li>
                         <li class="d-flex align-items-center gap-2">
                             <i class="fa-solid fa-clock text-white"></i>
-                            <span>Mon - Fri: 9:00 AM - 6:00 PM (SGT)</span>
+                            <span>Mon - Fri: 9.00 a.m. - 6.00 p.m.; Sat - Sun: Closed</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-phone text-white"></i>
+                            <a href="https://wa.me/6582861600" class="text-light-gray text-decoration-none hover-underline" target="_blank" rel="noopener noreferrer">+65 8286 1600 (Gan)</a>
                         </li>
                         <li class="d-flex align-items-center gap-2">
                             <i class="fa-solid fa-envelope text-white"></i>
-                            <a href="mailto:projects@apexsignage.sg" class="text-light-gray text-decoration-none hover-underline">projects@apexsignage.sg</a>
+                            <a href="mailto:antadv.gan@gmail.com" class="text-light-gray text-decoration-none hover-underline">antadv.gan@gmail.com</a>
                         </li>
                     </ul>
                 </div>

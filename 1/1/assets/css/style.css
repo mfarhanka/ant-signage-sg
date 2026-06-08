@@ -458,6 +458,54 @@
             align-items: center;
         }
 
+        .location-map-section {
+            background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(248, 249, 250, 0.92) 100%);
+        }
+
+        .location-map-copy {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .location-map-details {
+            display: grid;
+            gap: 20px;
+            padding: 28px;
+            background: rgba(255, 255, 255, 0.92);
+        }
+
+        .location-map-icon {
+            width: 18px;
+            margin-top: 3px;
+            color: var(--color-pure-black);
+            font-size: 1rem;
+            flex-shrink: 0;
+        }
+
+        .location-map-label {
+            margin-bottom: 6px;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .location-map-frame-wrap {
+            min-height: 100%;
+            background: var(--color-pure-white);
+            padding: 10px;
+        }
+
+        .location-map-frame {
+            display: block;
+            width: 100%;
+            min-height: 480px;
+            border: 0;
+            filter: grayscale(1) contrast(1.05);
+        }
+
         /* Form Overlay */
         .success-overlay {
             display: none;
@@ -613,6 +661,10 @@
         }
 
         @media (max-width: 991.98px) {
+            .location-map-frame {
+                min-height: 420px;
+            }
+
             .developer-showcase-shell {
                 grid-template-columns: 1fr;
                 gap: 20px;
@@ -628,6 +680,18 @@
         }
 
         @media (max-width: 575.98px) {
+            .location-map-details {
+                padding: 22px;
+            }
+
+            .location-map-frame-wrap {
+                padding: 8px;
+            }
+
+            .location-map-frame {
+                min-height: 320px;
+            }
+
             .developer-showcase-heading {
                 margin-bottom: 32px;
             }
