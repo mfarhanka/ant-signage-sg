@@ -333,9 +333,89 @@
             font-size: 0.88rem;
         }
 
+        .reviews-carousel {
+            position: relative;
+        }
+
+        .reviews-carousel-viewport {
+            overflow: hidden;
+        }
+
+        .reviews-carousel-track {
+            display: flex;
+            gap: 24px;
+            transition: transform 0.55s cubic-bezier(0.16, 1, 0.3, 1);
+            will-change: transform;
+        }
+
+        .reviews-carousel-item {
+            flex: 0 0 calc((100% - (24px * 2)) / 3);
+        }
+
+        .reviews-carousel-controls {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            margin-top: 28px;
+        }
+
+        .reviews-carousel-buttons {
+            display: flex;
+            gap: 12px;
+        }
+
+        .reviews-carousel-button {
+            width: 52px;
+            height: 52px;
+            border: 1px solid var(--color-pure-black);
+            background: var(--color-pure-white);
+            color: var(--color-pure-black);
+            font-size: 1rem;
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+        }
+
+        .reviews-carousel-button:hover,
+        .reviews-carousel-button:focus {
+            background: var(--color-pure-black);
+            color: var(--color-pure-white);
+            transform: translateY(-2px);
+        }
+
+        .reviews-carousel-button:disabled {
+            opacity: 0.35;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .reviews-carousel-dots {
+            display: flex;
+            gap: 10px;
+        }
+
+        .reviews-carousel-dot {
+            width: 11px;
+            height: 11px;
+            padding: 0;
+            border: 0;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, 0.18);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .reviews-carousel-dot.is-active {
+            background: var(--color-pure-black);
+            transform: scale(1.15);
+        }
+
         @media (max-width: 575.98px) {
             .review-card-custom {
                 padding: 22px;
+            }
+
+            .reviews-carousel-controls {
+                flex-direction: column;
+                align-items: flex-start;
             }
         }
 
@@ -1087,36 +1167,71 @@
                 </div>
             </div>
 
-            <div class="row g-4">
-                <div class="col-md-6 col-xl-4">
-                    <article class="review-card-custom">
-                        <span class="review-source"><span class="review-source-dot"></span>Google Review</span>
-                        <p class="review-quote">“Very professional from site measurement to final install. The illuminated signboard looked exactly like the approved artwork and the team kept the timeline tight.”</p>
-                        <div>
-                            <span class="review-meta-name">Marcus Tan</span>
-                            <span class="review-meta-role">Retail business owner, Singapore</span>
+            <div class="reviews-carousel" id="reviewsCarousel" aria-label="Client testimonials carousel">
+                <div class="reviews-carousel-viewport">
+                    <div class="reviews-carousel-track">
+                        <div class="reviews-carousel-item">
+                            <article class="review-card-custom">
+                                <span class="review-source"><span class="review-source-dot"></span>Google Review</span>
+                                <p class="review-quote">“Very professional from site measurement to final install. The illuminated signboard looked exactly like the approved artwork and the team kept the timeline tight.”</p>
+                                <div>
+                                    <span class="review-meta-name">Marcus Tan</span>
+                                    <span class="review-meta-role">Retail business owner, Singapore</span>
+                                </div>
+                            </article>
                         </div>
-                    </article>
+                        <div class="reviews-carousel-item">
+                            <article class="review-card-custom">
+                                <span class="review-source"><span class="review-source-dot"></span>Google Review</span>
+                                <p class="review-quote">“Fast response, clear quotation, and excellent workmanship. Our office branding wall and acrylic lettering were installed neatly with minimal disruption.”</p>
+                                <div>
+                                    <span class="review-meta-name">Alicia Goh</span>
+                                    <span class="review-meta-role">Corporate office manager</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="reviews-carousel-item">
+                            <article class="review-card-custom">
+                                <span class="review-source"><span class="review-source-dot"></span>Client Testimonial</span>
+                                <p class="review-quote">“They coordinated well with our developer timeline and landlord requirements. The final hoarding, lightbox, and directional signs were consistent and well finished.”</p>
+                                <div>
+                                    <span class="review-meta-name">Shawn Lim</span>
+                                    <span class="review-meta-role">Project coordinator, mixed-use development</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="reviews-carousel-item">
+                            <article class="review-card-custom">
+                                <span class="review-source"><span class="review-source-dot"></span>Google Review</span>
+                                <p class="review-quote">“The team handled our mall submission requirements properly and the finished signage looked premium. Installation was neat and fast.”</p>
+                                <div>
+                                    <span class="review-meta-name">Nur Aisyah</span>
+                                    <span class="review-meta-role">Retail operations lead</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="reviews-carousel-item">
+                            <article class="review-card-custom">
+                                <span class="review-source"><span class="review-source-dot"></span>Client Testimonial</span>
+                                <p class="review-quote">“Good communication, realistic lead time, and strong finishing quality. The wayfinding signs and lightbox set were delivered exactly as discussed.”</p>
+                                <div>
+                                    <span class="review-meta-name">Daniel Chua</span>
+                                    <span class="review-meta-role">Facilities manager, commercial building</span>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 col-xl-4">
-                    <article class="review-card-custom">
-                        <span class="review-source"><span class="review-source-dot"></span>Google Review</span>
-                        <p class="review-quote">“Fast response, clear quotation, and excellent workmanship. Our office branding wall and acrylic lettering were installed neatly with minimal disruption.”</p>
-                        <div>
-                            <span class="review-meta-name">Alicia Goh</span>
-                            <span class="review-meta-role">Corporate office manager</span>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                    <article class="review-card-custom">
-                        <span class="review-source"><span class="review-source-dot"></span>Client Testimonial</span>
-                        <p class="review-quote">“They coordinated well with our developer timeline and landlord requirements. The final hoarding, lightbox, and directional signs were consistent and well finished.”</p>
-                        <div>
-                            <span class="review-meta-name">Shawn Lim</span>
-                            <span class="review-meta-role">Project coordinator, mixed-use development</span>
-                        </div>
-                    </article>
+                <div class="reviews-carousel-controls">
+                    <div class="reviews-carousel-buttons">
+                        <button type="button" class="reviews-carousel-button" data-review-prev aria-label="Previous reviews">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                        <button type="button" class="reviews-carousel-button" data-review-next aria-label="Next reviews">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="reviews-carousel-dots" data-review-dots aria-label="Review pages"></div>
                 </div>
             </div>
         </div>
@@ -1680,9 +1795,106 @@
             document.getElementById('success-message').style.display = 'none';
         }
 
+        function initReviewsCarousel() {
+            const carousel = document.getElementById('reviewsCarousel');
+            if (!carousel) {
+                return;
+            }
+
+            const track = carousel.querySelector('.reviews-carousel-track');
+            const items = Array.from(carousel.querySelectorAll('.reviews-carousel-item'));
+            const prevButton = carousel.querySelector('[data-review-prev]');
+            const nextButton = carousel.querySelector('[data-review-next]');
+            const dotsContainer = carousel.querySelector('[data-review-dots]');
+            let currentIndex = 0;
+            let maxIndex = 0;
+            let autoplayId;
+
+            function getVisibleCount() {
+                return 3;
+            }
+
+            function buildDots() {
+                dotsContainer.innerHTML = '';
+                for (let index = 0; index <= maxIndex; index += 1) {
+                    const dot = document.createElement('button');
+                    dot.type = 'button';
+                    dot.className = 'reviews-carousel-dot';
+                    dot.setAttribute('aria-label', `Go to review page ${index + 1}`);
+                    dot.addEventListener('click', () => {
+                        currentIndex = index;
+                        updateCarousel();
+                        restartAutoplay();
+                    });
+                    dotsContainer.appendChild(dot);
+                }
+            }
+
+            function updateCarousel() {
+                maxIndex = Math.max(items.length - getVisibleCount(), 0);
+                if (currentIndex > maxIndex) {
+                    currentIndex = maxIndex;
+                }
+
+                const itemWidth = items[0].getBoundingClientRect().width;
+                const gap = 24;
+                const offset = currentIndex * (itemWidth + gap);
+                track.style.transform = `translateX(-${offset}px)`;
+
+                if (dotsContainer.children.length !== maxIndex + 1) {
+                    buildDots();
+                }
+
+                Array.from(dotsContainer.children).forEach((dot, index) => {
+                    dot.classList.toggle('is-active', index === currentIndex);
+                });
+
+                prevButton.disabled = currentIndex === 0;
+                nextButton.disabled = currentIndex === maxIndex;
+            }
+
+            function goNext() {
+                currentIndex = currentIndex >= maxIndex ? 0 : currentIndex + 1;
+                updateCarousel();
+            }
+
+            function goPrev() {
+                currentIndex = currentIndex <= 0 ? maxIndex : currentIndex - 1;
+                updateCarousel();
+            }
+
+            function startAutoplay() {
+                autoplayId = window.setInterval(goNext, 4500);
+            }
+
+            function restartAutoplay() {
+                window.clearInterval(autoplayId);
+                startAutoplay();
+            }
+
+            prevButton.addEventListener('click', () => {
+                goPrev();
+                restartAutoplay();
+            });
+
+            nextButton.addEventListener('click', () => {
+                goNext();
+                restartAutoplay();
+            });
+
+            carousel.addEventListener('mouseenter', () => window.clearInterval(autoplayId));
+            carousel.addEventListener('mouseleave', startAutoplay);
+            window.addEventListener('resize', updateCarousel);
+
+            buildDots();
+            updateCarousel();
+            startAutoplay();
+        }
+
         // Initialize on layout completion
         window.onload = function() {
             runCostEstimate();
+            initReviewsCarousel();
         };
     </script>
 </body>
