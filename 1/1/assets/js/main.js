@@ -244,8 +244,115 @@
             startAutoplay();
         }
 
+        function initTrustedBrandsCarousel() {
+            const carousel = document.getElementById('trustedBrandsCarousel');
+            if (!carousel) {
+                return;
+            }
+
+            const track = carousel.querySelector('.trusted-brands-track');
+            const items = Array.from(carousel.querySelectorAll('.trusted-brands-item'));
+            const prevButton = document.querySelector('[data-brand-prev]');
+            const nextButton = document.querySelector('[data-brand-next]');
+            const dotsContainer = carousel.querySelector('[data-brand-dots]');
+            let currentIndex = 0;
+            let maxIndex = 0;
+            let autoplayId;
+
+            if (!track || !items.length || !prevButton || !nextButton || !dotsContainer) {
+                return;
+            }
+
+            function getVisibleCount() {
+                if (window.innerWidth <= 575.98) {
+                    return 2;
+                }
+                if (window.innerWidth <= 991.98) {
+                    return 3;
+                }
+                return 5;
+            }
+
+            function buildDots() {
+                dotsContainer.innerHTML = '';
+                for (let index = 0; index <= maxIndex; index += 1) {
+                    const dot = document.createElement('button');
+                    dot.type = 'button';
+                    dot.className = 'trusted-brands-dot';
+                    dot.setAttribute('aria-label', `Go to trusted brand page ${index + 1}`);
+                    dot.addEventListener('click', () => {
+                        currentIndex = index;
+                        updateCarousel();
+                        restartAutoplay();
+                    });
+                    dotsContainer.appendChild(dot);
+                }
+            }
+
+            function updateCarousel() {
+                maxIndex = Math.max(items.length - getVisibleCount(), 0);
+                if (currentIndex > maxIndex) {
+                    currentIndex = maxIndex;
+                }
+
+                const itemWidth = items[0].getBoundingClientRect().width;
+                const gap = 20;
+                const offset = currentIndex * (itemWidth + gap);
+                track.style.transform = `translateX(-${offset}px)`;
+
+                if (dotsContainer.children.length !== maxIndex + 1) {
+                    buildDots();
+                }
+
+                Array.from(dotsContainer.children).forEach((dot, index) => {
+                    dot.classList.toggle('is-active', index === currentIndex);
+                });
+
+                prevButton.disabled = currentIndex === 0;
+                nextButton.disabled = currentIndex === maxIndex;
+            }
+
+            function goNext() {
+                currentIndex = currentIndex >= maxIndex ? 0 : currentIndex + 1;
+                updateCarousel();
+            }
+
+            function goPrev() {
+                currentIndex = currentIndex <= 0 ? maxIndex : currentIndex - 1;
+                updateCarousel();
+            }
+
+            function startAutoplay() {
+                autoplayId = window.setInterval(goNext, 3200);
+            }
+
+            function restartAutoplay() {
+                window.clearInterval(autoplayId);
+                startAutoplay();
+            }
+
+            prevButton.addEventListener('click', () => {
+                goPrev();
+                restartAutoplay();
+            });
+
+            nextButton.addEventListener('click', () => {
+                goNext();
+                restartAutoplay();
+            });
+
+            carousel.addEventListener('mouseenter', () => window.clearInterval(autoplayId));
+            carousel.addEventListener('mouseleave', startAutoplay);
+            window.addEventListener('resize', updateCarousel);
+
+            buildDots();
+            updateCarousel();
+            startAutoplay();
+        }
+
         // Initialize on layout completion
         window.onload = function() {
             runCostEstimate();
             initReviewsCarousel();
+            initTrustedBrandsCarousel();
         };

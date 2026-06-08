@@ -126,19 +126,42 @@
         </div>
     </header>
 
-    <section class="trusted-by-strip">
-        <div class="container">
-            <div class="row align-items-center justify-content-between g-3">
-                <div class="col-md-4 text-center text-md-start">
-                    <span class="text-uppercase tracking-wider text-black fw-bold" style="font-size: 0.75rem; letter-spacing: 2px;">ENGINEERED FOR SINGAPORE'S LEADING ENTITIES</span>
+    <section id="trusted-brands" class="trusted-brands-section border-bottom border-technical">
+        <div class="container py-5">
+            <div class="row align-items-end justify-content-between g-4 mb-4 mb-lg-5">
+                <div class="col-lg-7">
+                    <span class="text-uppercase tracking-wider text-muted fw-bold" style="font-size: 0.78rem; letter-spacing: 2px;">Trusted Brands</span>
+                    <h2 class="display-5 text-black mt-2 mb-3">Organisations We Have Supported Across Singapore</h2>
+                    <p class="text-dark-gray mb-0" style="font-weight: 400; line-height: 1.8; max-width: 720px;">
+                        A rotating selection of brands, institutions, and hospitality groups that have engaged us for fabrication, installation, and branded environmental signage work.
+                    </p>
                 </div>
-                <div class="col-md-8">
-                    <div class="d-flex flex-wrap justify-content-around justify-content-md-end align-items-center gap-4 gap-md-5 fw-bold text-uppercase" style="letter-spacing: 1.5px; font-size: 0.95rem;">
-                        <span class="text-black">CAPITALAND</span>
-                        <span class="text-black">KEPPEL BAY</span>
-                        <span class="text-black">MARINA BAY SANDS</span>
-                        <span class="text-black">CHIP ENG SENG</span>
+                <div class="col-lg-5">
+                    <div class="trusted-brands-controls">
+                        <button type="button" class="trusted-brands-button" data-brand-prev aria-label="Previous trusted brands">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                        <button type="button" class="trusted-brands-button" data-brand-next aria-label="Next trusted brands">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
                     </div>
+                </div>
+            </div>
+
+            <div class="trusted-brands-carousel" id="trustedBrandsCarousel" aria-label="Trusted brands logo carousel">
+                <div class="trusted-brands-viewport">
+                    <div class="trusted-brands-track">
+                        <div class="trusted-brands-item"><article class="trusted-brand-card"><img src="assets/images/trusted-brands/bridgestone-logo.png" alt="Bridgestone logo" class="trusted-brand-logo"></article></div>
+                        <div class="trusted-brands-item"><article class="trusted-brand-card"><img src="assets/images/trusted-brands/british-club-logo.png" alt="The British Club logo" class="trusted-brand-logo"></article></div>
+                        <div class="trusted-brands-item"><article class="trusted-brand-card"><img src="assets/images/trusted-brands/changi-airport-logo.png" alt="Changi Airport logo" class="trusted-brand-logo"></article></div>
+                        <div class="trusted-brands-item"><article class="trusted-brand-card"><img src="assets/images/trusted-brands/m1-logo.png" alt="M1 logo" class="trusted-brand-logo"></article></div>
+                        <div class="trusted-brands-item"><article class="trusted-brand-card"><img src="assets/images/trusted-brands/marubeni-logo.png" alt="Marubeni logo" class="trusted-brand-logo"></article></div>
+                        <div class="trusted-brands-item"><article class="trusted-brand-card"><img src="assets/images/trusted-brands/ritz-carlton-logo.png" alt="The Ritz-Carlton logo" class="trusted-brand-logo"></article></div>
+                        <div class="trusted-brands-item"><article class="trusted-brand-card"><img src="assets/images/trusted-brands/temasek-polytechnic-logo.png" alt="Temasek Polytechnic logo" class="trusted-brand-logo"></article></div>
+                    </div>
+                </div>
+                <div class="trusted-brands-footer">
+                    <div class="trusted-brands-dots" data-brand-dots aria-label="Trusted brand pages"></div>
                 </div>
             </div>
         </div>
