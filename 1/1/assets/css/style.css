@@ -140,6 +140,44 @@
             z-index: 2;
         }
 
+        .hero-title {
+            max-width: 900px;
+        }
+
+        .hero-rotating-line {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            gap: 12px;
+            margin-top: 6px;
+        }
+
+        .hero-rotating-prefix {
+            font-size: clamp(1.1rem, 2vw, 1.5rem);
+            font-weight: 500;
+            letter-spacing: 0.08em;
+            text-transform: lowercase;
+        }
+
+        .hero-rotating-word {
+            position: relative;
+            display: inline-block;
+            min-width: min(100%, 17ch);
+            padding-bottom: 4px;
+            border-bottom: 3px solid var(--color-pure-black);
+            text-transform: none;
+            transition: opacity 0.25s ease, transform 0.25s ease;
+        }
+
+        .hero-rotating-word.is-changing {
+            opacity: 0;
+            transform: translateY(8px);
+        }
+
+        .hero-subcopy {
+            max-width: 760px;
+        }
+
         /* Service Cards - White turning into stark Black */
         .service-card {
             background: var(--color-pure-white);
@@ -764,6 +802,14 @@
         }
 
         @media (max-width: 575.98px) {
+            .hero-rotating-line {
+                gap: 8px;
+            }
+
+            .hero-rotating-word {
+                min-width: 100%;
+            }
+
             .trusted-brands-item {
                 flex-basis: calc((100% - 20px) / 2);
             }

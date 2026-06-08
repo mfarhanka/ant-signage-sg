@@ -330,9 +330,34 @@
             startAutoplay();
         }
 
+        function initHeroTitleRotation() {
+            const rotatingWord = document.querySelector('[data-hero-rotate]');
+            if (!rotatingWord) {
+                return;
+            }
+
+            const phrases = [
+                'Architects trust',
+                'Developers rely on',
+                'Property Owners are proud to display'
+            ];
+            let currentIndex = 0;
+
+            window.setInterval(() => {
+                rotatingWord.classList.add('is-changing');
+
+                window.setTimeout(() => {
+                    currentIndex = (currentIndex + 1) % phrases.length;
+                    rotatingWord.textContent = phrases[currentIndex];
+                    rotatingWord.classList.remove('is-changing');
+                }, 220);
+            }, 2600);
+        }
+
         // Initialize on layout completion
         window.onload = function() {
             runCostEstimate();
             initReviewsCarousel();
             initTrustedBrandsCarousel();
+            initHeroTitleRotation();
         };

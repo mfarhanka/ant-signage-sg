@@ -62,13 +62,16 @@
                         <span class="text-uppercase tracking-wider text-black fw-bold" style="font-size: 0.7rem; letter-spacing: 2px;">Singapore Registered Sign Contractor</span>
                     </div>
                     
-                    <h1 class="display-3 text-black mb-3 tracking-tight lh-sm">
-                        FABRICATING PRECISE<br>
-                        <span class="text-decoration-underline" style="text-underline-offset: 8px; text-decoration-thickness: 3px;">ARCHITECTURAL SIGNAGE</span>
+                    <h1 class="display-3 text-black mb-4 tracking-tight lh-sm hero-title">
+                        <span class="d-block">WE DESIGN AND BUILD SIGNAGE</span>
+                        <span class="hero-rotating-line">
+                            <span class="hero-rotating-prefix">that</span>
+                            <span class="hero-rotating-word" data-hero-rotate>Architects trust</span>
+                        </span>
                     </h1>
                     
-                    <p class="lead text-dark-gray mb-5 max-w-lg" style="font-weight: 400; line-height: 1.8; font-size: 1.1rem;">
-                        From custom CNC laser-cut lettering and certified low-voltage LED assemblies to BCA submissions and high-altitude installations. Serving developers, fit-out architects, and retail brands across Singapore with flawless mechanical alignment.
+                    <p class="lead text-dark-gray mb-5 max-w-lg hero-subcopy" style="font-weight: 400; line-height: 1.8; font-size: 1.1rem;">
+                        Built for teams that need signage done right. Architects trust it, developers rely on it, and property owners are proud to display it.
                     </p>
                     
                     <div class="d-flex flex-wrap gap-3">
