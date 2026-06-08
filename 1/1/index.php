@@ -277,26 +277,6 @@
             background: var(--color-pure-white);
         }
 
-        .reviews-summary {
-            height: 100%;
-            padding: 32px;
-            border: 1px solid var(--color-pure-black);
-            background: var(--color-light-gray);
-        }
-
-        .reviews-score {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: clamp(3rem, 7vw, 5rem);
-            line-height: 0.9;
-            letter-spacing: -0.05em;
-            color: var(--color-pure-black);
-        }
-
-        .reviews-stars {
-            letter-spacing: 0.35em;
-            font-size: 0.95rem;
-        }
-
         .review-card-custom {
             height: 100%;
             padding: 28px;
@@ -354,7 +334,6 @@
         }
 
         @media (max-width: 575.98px) {
-            .reviews-summary,
             .review-card-custom {
                 padding: 22px;
             }
@@ -1100,20 +1079,11 @@
     <section id="testimonials" class="reviews-section py-5 border-bottom border-technical">
         <div class="container py-5">
             <div class="row align-items-end mb-5 g-4">
-                <div class="col-lg-7">
-                    <span class="text-uppercase tracking-wider text-muted fw-bold" style="font-size: 0.8rem; letter-spacing: 2px;">TESTIMONIALS & GOOGLE REVIEWS</span>
+                <div class="col-lg-12 text-center">
                     <h2 class="display-4 text-black mt-2 mb-3">Trusted By Clients Who Need Signage Delivered Right</h2>
-                    <p class="text-dark-gray mb-0" style="font-weight: 400; line-height: 1.8; max-width: 720px;">
+                    <p class="text-dark-gray mb-0 mx-auto" style="font-weight: 400; line-height: 1.8; max-width: 720px;">
                         Business owners, developers, and office fit-out teams rely on us for clear timelines, precise fabrication, and clean on-site installation. Here is a snapshot of the feedback we consistently receive after project handover.
                     </p>
-                </div>
-                <div class="col-lg-5">
-                    <div class="reviews-summary">
-                        <span class="text-uppercase tracking-wider text-muted fw-bold d-block mb-3" style="font-size: 0.78rem; letter-spacing: 2px;">Google Review Snapshot</span>
-                        <div class="reviews-score mb-2">4.9</div>
-                        <div class="reviews-stars text-black mb-3">★★★★★</div>
-                        <p class="text-dark-gray mb-0" style="line-height: 1.8;">Average rating based on recent client feedback for responsiveness, workmanship quality, and installation reliability.</p>
-                    </div>
                 </div>
             </div>
 
