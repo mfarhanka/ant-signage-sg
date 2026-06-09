@@ -42,7 +42,7 @@
                     <li class="nav-item"><a class="nav-link" href="#compliance">Safety & Compliance</a></li>
                     <li class="nav-item"><a class="nav-link" href="#estimator">Cost Calculator</a></li>
                 </ul>
-                <div class="d-flex align-items-center gap-3">
+                <div class="d-flex align-items-center gap-3 navbar-cta-group">
                     <a href="https://wa.me/6582861600" class="text-black text-decoration-none d-none d-xl-inline-block fw-bold text-nowrap" style="font-size: 0.85rem;" target="_blank" rel="noopener noreferrer">
                         <i class="fa-solid fa-phone me-1"></i>+65 8286 1600
                     </a>
