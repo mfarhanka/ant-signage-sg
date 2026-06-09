@@ -674,12 +674,12 @@
                 </div>
             </div>
 
-            <div class="border-top border-technical-subtle mt-5 pt-4 d-flex flex-column flex-md-row justify-content-between align-items-center text-muted" style="font-size: 0.8rem;">
+            <div class="border-top border-technical-subtle mt-5 pt-4 d-flex flex-column flex-md-row justify-content-between align-items-center text-white" style="font-size: 0.8rem;">
                 <p class="mb-2 mb-md-0">&copy; 2026 Signage SG. All Rights Reserved.</p>
                 <div class="d-flex gap-3">
-                    <a href="#" class="text-muted text-decoration-none hover-white">Terms of Fabrication</a>
+                    <a href="#" class="text-white text-decoration-none hover-white">Terms of Fabrication</a>
                     <span>|</span>
-                    <a href="#" class="text-muted text-decoration-none hover-white">PDPA Privacy Protocol</a>
+                    <a href="#" class="text-white text-decoration-none hover-white">PDPA Privacy Protocol</a>
                 </div>
             </div>
         </div>
