@@ -23,7 +23,7 @@
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top py-3">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center gap-2" href="#">
-                <img src="assets/images/logo.png" alt="Signage SG logo" style="height: 34px; width: auto;" class="flex-shrink-0">
+                <img src="assets/images/logo.png" alt="Signage SG logo" style="width: 76px; height: auto;" class="flex-shrink-0">
                 <div>
                     <span class="d-block h4 mb-0 fw-bold tracking-widest text-black display-font" style="letter-spacing: 1px;">SIGNAGE SG</span>
                     <span class="d-block text-uppercase text-muted" style="font-size: 0.55rem; letter-spacing: 3px; font-weight: 700;">ARCHITECTURAL SIGN CRAFTS</span>
