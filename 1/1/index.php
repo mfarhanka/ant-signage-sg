@@ -720,6 +720,13 @@
         </div>
     </footer>
 
+    <a href="https://wa.me/6582861600" class="floating-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Chat with Signage SG on WhatsApp">
+        <span class="floating-whatsapp-icon" aria-hidden="true">
+            <i class="fa-brands fa-whatsapp"></i>
+        </span>
+        <span class="floating-whatsapp-label">WhatsApp Us</span>
+    </a>
+
     <!-- Bootstrap 5 Bundle JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
