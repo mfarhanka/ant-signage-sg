@@ -610,11 +610,7 @@
             <div class="row g-5">
                 <div class="col-lg-4">
                     <div class="d-flex align-items-center gap-2 mb-4">
-                        <svg width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="100" height="100" fill="white"/>
-                            <path d="M15 80L50 15L85 80H15Z" stroke="black" stroke-width="8" stroke-linejoin="round"/>
-                            <line x1="30" y1="58" x2="70" y2="58" stroke="black" stroke-width="5"/>
-                        </svg>
+                        <img src="assets/images/logo.png" alt="Signage SG logo" style="height: 34px; width: auto;" class="flex-shrink-0">
                         <div>
                             <span class="d-block h5 mb-0 fw-bold tracking-widest text-white display-font" style="letter-spacing: 1px;">SIGNAGE SG</span>
                             <span class="d-block text-uppercase text-muted" style="font-size: 0.55rem; letter-spacing: 2px; font-weight: 700;">Singapore</span>
