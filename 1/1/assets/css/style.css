@@ -140,6 +140,23 @@
             z-index: 2;
         }
 
+        .footer-logo-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 58px;
+            height: 58px;
+            border: 1px solid rgba(255, 255, 255, 0.45);
+            border-radius: 50%;
+            background: var(--color-pure-white);
+        }
+
+        .footer-logo-image {
+            width: 34px;
+            height: auto;
+            display: block;
+        }
+
         .hero-title {
             max-width: 900px;
         }
