@@ -58,11 +58,13 @@
             letter-spacing: 0.05em;
             text-transform: uppercase;
             font-size: 0.8rem;
+            text-decoration: none;
             transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
         }
         .btn-wb-outline:hover {
             background: var(--color-pure-black);
             color: var(--color-pure-white);
+            text-decoration: none;
             transform: translateY(-2px);
         }
 
@@ -76,25 +78,80 @@
             letter-spacing: 0.05em;
             text-transform: uppercase;
             font-size: 0.8rem;
+            text-decoration: none;
             transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
         }
         .btn-wb-solid:hover {
             background: var(--color-pure-white);
             color: var(--color-pure-black);
             border-color: var(--color-pure-black);
+            text-decoration: none;
             transform: translateY(-2px);
         }
 
         .btn-nav-quote {
+            position: relative;
+            overflow: hidden;
             background: #c1121f;
             border-color: #c1121f;
             color: var(--color-pure-white);
+            box-shadow: 0 12px 26px rgba(193, 18, 31, 0.22);
+            animation: quoteButtonJump 2.2s ease-in-out infinite;
+        }
+
+        .btn-nav-quote::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -130%;
+            width: 70%;
+            height: 100%;
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.38) 50%, rgba(255, 255, 255, 0) 100%);
+            transform: skewX(-20deg);
+            transition: left 0.55s ease;
         }
 
         .btn-nav-quote:hover {
             background: #9b0d18;
             border-color: #9b0d18;
             color: var(--color-pure-white);
+            text-decoration: none;
+            box-shadow: 0 18px 36px rgba(155, 13, 24, 0.3);
+            transform: translateY(-3px) scale(1.02);
+        }
+
+        .btn-nav-quote:hover::before {
+            left: 150%;
+        }
+
+        .btn-nav-quote:focus,
+        .btn-nav-quote:active {
+            color: var(--color-pure-white);
+            text-decoration: none;
+        }
+
+        @keyframes quoteButtonJump {
+            0%,
+            100% {
+                transform: translateY(0);
+                box-shadow: 0 12px 26px rgba(193, 18, 31, 0.22);
+            }
+            20% {
+                transform: translateY(-4px);
+                box-shadow: 0 16px 32px rgba(193, 18, 31, 0.28);
+            }
+            35% {
+                transform: translateY(-10px);
+                box-shadow: 0 22px 38px rgba(193, 18, 31, 0.34);
+            }
+            50% {
+                transform: translateY(0);
+                box-shadow: 0 12px 26px rgba(193, 18, 31, 0.22);
+            }
+            62% {
+                transform: translateY(-3px);
+                box-shadow: 0 15px 30px rgba(193, 18, 31, 0.26);
+            }
         }
 
         /* Navigation Styling */
