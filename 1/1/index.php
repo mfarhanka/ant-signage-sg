@@ -46,7 +46,7 @@
                     <a href="https://wa.me/6582861600" class="text-black text-decoration-none d-none d-xl-inline-block fw-bold text-nowrap" style="font-size: 0.85rem;" target="_blank" rel="noopener noreferrer">
                         <i class="fa-solid fa-phone me-1"></i>+65 8286 1600
                     </a>
-                    <a href="#quote-form" class="btn-wb-solid">Get Quote</a>
+                    <a href="#quote-form" class="btn-wb-solid btn-nav-quote">Get Quote</a>
                 </div>
             </div>
         </div>
@@ -130,6 +130,39 @@
             </div>
         </div>
     </header>
+
+    <section id="video-showcase" class="video-showcase-section py-5 border-bottom border-technical">
+        <div class="container py-4 py-lg-5">
+            <div class="row align-items-end justify-content-between g-4 mb-4 mb-lg-5">
+                <div class="col-lg-7">
+                    <h2 class="display-5 text-black mt-2 mb-3">Our Signage Work In Motion</h2>
+                </div>
+            </div>
+
+            <div class="video-showcase-grid">
+                <article class="video-showcase-card">
+                    <video class="video-showcase-media" autoplay muted loop playsinline preload="metadata">
+                        <source src="assets/videos/signage-showcase-01.mp4" type="video/mp4">
+                    </video>
+                </article>
+                <article class="video-showcase-card">
+                    <video class="video-showcase-media" autoplay muted loop playsinline preload="metadata">
+                        <source src="assets/videos/signage-showcase-02.mp4" type="video/mp4">
+                    </video>
+                </article>
+                <article class="video-showcase-card">
+                    <video class="video-showcase-media" autoplay muted loop playsinline preload="metadata">
+                        <source src="assets/videos/signage-showcase-03.mp4" type="video/mp4">
+                    </video>
+                </article>
+                <article class="video-showcase-card">
+                    <video class="video-showcase-media" autoplay muted loop playsinline preload="metadata">
+                        <source src="assets/videos/signage-showcase-04.mp4" type="video/mp4">
+                    </video>
+                </article>
+            </div>
+        </div>
+    </section>
 
     <section id="trusted-brands" class="trusted-brands-section border-bottom border-technical">
         <div class="container py-5">
