@@ -35,6 +35,10 @@
             <button class="navbar-toggler border-1 border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+            <div class="mobile-nav-quote d-lg-none w-100 mt-3">
+                <a href="#quote-form" class="btn-wb-solid btn-nav-quote w-100 text-center">Get Quote</a>
+            </div>
             
             <div class="collapse navbar-collapse" id="navbarContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-1 gap-lg-4">
@@ -46,7 +50,7 @@
                     <a href="https://wa.me/6582861600" class="text-black text-decoration-none d-none d-xl-inline-block fw-bold text-nowrap" style="font-size: 0.85rem;" target="_blank" rel="noopener noreferrer">
                         <i class="fa-solid fa-phone me-1"></i>+65 8286 1600
                     </a>
-                    <a href="#quote-form" class="btn-wb-solid btn-nav-quote">Get Quote</a>
+                    <a href="#quote-form" class="btn-wb-solid btn-nav-quote d-none d-lg-inline-flex">Get Quote</a>
                 </div>
             </div>
         </div>
