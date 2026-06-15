@@ -233,9 +233,9 @@
             <div class="collapse navbar-collapse" id="navbarContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-1 gap-lg-4">
                     <li class="nav-item"><a class="nav-link" href="index.php#hero">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.php#compliance">Safety & Compliance</a></li>
                     <li class="nav-item"><a class="nav-link active" href="blog.php">Blog</a></li>
                     <li class="nav-item"><a class="nav-link" href="index.php#estimator">Cost Calculator</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php#location-map">Contact</a></li>
                 </ul>
                 <div class="d-flex align-items-center gap-3 navbar-cta-group">
                     <a href="https://wa.me/6582861600" class="text-black text-decoration-none d-none d-xl-inline-block fw-bold text-nowrap" style="font-size: 0.85rem;" target="_blank" rel="noopener noreferrer">
