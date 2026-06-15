@@ -24,7 +24,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top py-3">
         <div class="container">
-            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.php#hero">
                 <img src="assets/images/logo.png" alt="Signage SG logo" style="width: 76px; height: auto;" class="flex-shrink-0">
                 <div>
                     <span class="d-block h4 mb-0 fw-bold tracking-widest text-black display-font" style="letter-spacing: 1px;">SIGNAGE SG</span>
@@ -44,6 +44,7 @@
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-1 gap-lg-4">
                     <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#compliance">Safety & Compliance</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
                     <li class="nav-item"><a class="nav-link" href="#estimator">Cost Calculator</a></li>
                 </ul>
                 <div class="d-flex align-items-center gap-3 navbar-cta-group">
@@ -644,7 +645,7 @@
         </div>
     </section>
 
-    <footer class="mt-auto py-5 bg-black text-white">
+    <footer id="compliance" class="mt-auto py-5 bg-black text-white">
         <div class="container py-3">
             <div class="row g-5">
                 <div class="col-lg-4">
